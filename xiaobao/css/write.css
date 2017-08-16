@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	color:#656565;
+	font-size:14px;}
+.content .pTitle{
+	height:32px;
+	background:#F7F7F7;
+	line-height:32px;
+	padding-left:14px;}
+.contBottom{
+	padding-left:200px;
+	padding-bottom:30px;}
+.contLeft{
+	width:360px;
+	text-align:right;
+	position:relative;}
+.contLeft input{
+	width:270px;
+	height:36px;
+	border:1px solid #C5C5C5;
+	box-sizing:border-box;
+	margin-left:12px;
+	margin-top:30px;
+	padding-left:15px;
+	color:#999999;}	
+.contLeft .gd input{
+	color:#333333;}	
+.contLeft .dw{
+	height:36px;
+	line-height:36px;
+	position:absolute;
+	right:-200px; bottom:0;}	
+.contLeft .dw a{
+	color:#2B85B9;}	
+.contLeft .dw2 a{
+	width:131px;
+	height:32px;
+	display:inline-block;
+	line-height:32px;
+	text-align:center;
+	background:#BFBFBF;
+	color:#fff;}	
+.contLeft .dw2{
+	right:-145px;}
+.contLeft2 p{
+	margin-top:30px;}
+.contLeft2 .radio input{
+	margin-left:22px;
+	margin-right:6px;}
+.contLeft2 select{
+	width:140px;
+	height:36px;
+	border:1px solid #C5C5C5;
+	box-sizing:border-box;
+	appearance:none;
+	-moz-appearance:none;
+    -webkit-appearance:none;
+	background:url(../images/writetu.png) right center no-repeat;
+	color:#999999;
+	padding-left:12px;
+	margin-left:12px;}	
+.contLeft2 option{
+	padding-left:12px;}
+.contLeft2 input{
+	margin-left:12px;}
+.contLeft2 .dizhi input{
+	width:440px;
+	height:36px;
+	border:1px solid #C5C5C5;
+	box-sizing:border-box;
+	padding:0 12px;}
+.contLeft2 .cue{
+	margin-top:5px;
+	font-size:12px;
+	color:#999999;
+	margin-left:80px;}	
+.content .affirm{
+	border-top:1px solid #C5C5C5;
+	border-bottom:1px solid #C5C5C5;
+	height:60px;
+	font-size:12px;
+	color:#5B5B5B;}
+.content .affirm input{
+	vertical-align:top;
+	margin:17px 10px 0 22px;}	
+.content .affirm span{
+	width:590px;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:16px;}
+.content .affirm a{
+	color:#2B85B9;}	
+
+	
+	
+	
+	
+	
+	
+	

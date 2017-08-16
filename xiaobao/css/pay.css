@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	font-size:14px;}
+
+.cont1 .message{
+	width:1161px;
+	margin:20px 0;
+	background:#F5F5F5;
+	height:175px;
+	border:1px solid #E1E1E1;}
+.cont1 .kuai{
+	width:282px;
+	height:100%;
+	position:relative;
+	border-right:1px solid #e1e1e1;}
+.cont1 .dingw{
+	position:absolute;
+	right:-16px; top:18px;}
+.cont1 .kuai dl{
+	margin-left:20px;
+	margin-top:20px;}	
+.cont1 .kuai dt{
+	font-size:18px;
+	color:#333;
+	margin-bottom:20px;}	
+.cont1 .kuai dd{
+	color:#656565;
+	font-size:14px;
+	line-height:24px;}
+.cont1 .kuai:nth-child(2) dl{
+	margin-left:34px;}	
+.cont1 .kuai2 span{
+	margin:0 0 0 12px;
+	width:112px;
+	display:inline-block;}
+.cont1 .kuai2 p{
+	margin-top:24px;}	
+.cont1 .kuai2{
+	padding-right:30px;}	
+.cont1 .kuai2 em{
+	display:inline-block;
+	width:40px;
+	text-align:right;
+	margin-left:90px;}	
+	

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about{
+	margin-top:18px;}
+.aboutLeft{
+	width:198px;
+	height:327px;
+	border:1px solid #ECECEC;
+	text-align:center;}
+.aboutLeft h3{
+	color:#333333;
+	font-size:16px;
+	line-height:54px;}
+.aboutLeft h3 span{
+	color:#ECECEC;
+	font-weight:normal;}	
+.aboutLeft ul{
+	width:100%;
+	position:relative;
+	left:-1px;}	
+	
+.aboutLeft li{
+	height:44px;
+	line-height:44px;}	
+.aboutLeft li a{
+	color:#666666;}	
+.aboutLeft li:nth-child(odd){
+	border-left:2px solid #008CD6;
+	background:#F9F9F9;}	
+.aboutLeft li .active{
+	color:#008CD6;}	
+.aboutRight{
+	width:774px;
+	font-size:14px;
+	color:#656565;}	
+.aboutRight p{
+	line-height:36px;
+	margin-bottom:50px;}	
+.footerbj{
+	margin-top:317px;		
+	

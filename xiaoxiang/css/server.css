@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.server{
+	margin-top:30px;}
+.server .kuai{
+	width:418px;}
+.server .img{
+	width:416px;
+	height:193px;
+	border:1px solid #B8CCD1;}
+.server h3{
+	font-size:24px;
+	text-align:center;
+	margin-top:25px;
+	margin-bottom:20px;}
+.server li{
+	font-size:16px;
+	line-height:30px;
+	text-align:center;}
+.server li a{
+	color:#333333;}
+.server .dkaui{
+	margin-bottom:75px;
+	position:relative;}
+.server .dkaui .h1{
+	color:#0093FF;}
+.server .dkaui .h2{
+	color:#FF7300;}
+.server .dkaui .h3{
+	color:#008305;}
+.server .dkaui .h4{
+	color:#E71BCC;}
+.server ul{
+	position:relative;}
+.server em{
+	width:99px;
+	text-align:center;
+	color:#FF6D00;
+	font-size:14px;
+	display:inline-table;
+	background:url(../images/serverxt1.png) left center no-repeat;
+	padding-left:48px;
+	line-height:18px;
+	position:absolute;
+	right:-26px; top:15px;}
+.server .dkaui .xian{
+	position:absolute;
+	left:50%; top:208px;}
+.footerbj{
+	margin-top:100px;	
+
+
+
+
+
+

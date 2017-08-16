@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contRight{
+	background:#fff;
+	margin-top:19px;}
+.contRight h3{
+	font-size:14px;
+	color:#656565;
+	line-height:50px;
+	padding-left:20px;
+	border-bottom:1px solid #D6D6D6;}	
+.contRight h3 a{
+	color:#656565;}	
+.contRight .bank{
+	margin-top:36px;}
+.contRight .bankq{
+	border:1px solid #E7E7E7;
+	width:306px;
+	height:192px;
+	box-sizing:border-box;
+	margin-left:20px;
+	border-radius:6px;}
+.contRight .bankTop{
+	height:124px;
+	background:#FFE3E3 url(../images/mybanktu1.png) 128px 31px no-repeat;}
+.contRight .p1{
+	font-size:14px;
+	width:64px;
+	color:#CB3333;
+	font-weight:bold;
+	background:url(../images/mybanktu2.png) left center no-repeat;
+	padding-left:48px;
+	height:40px;
+	margin:20px 0 20px 15px;}
+.contRight .p2{
+	color:#C50005;
+	font-size:24px;
+	margin-left:30px;}
+.contRight .bankBottom{
+	margin-top:10px;}
+.contRight .bankBottom p{
+	margin-left:20px;
+	font-size:14px;
+	color:#656565;
+	line-height:24px;}
+.contRight .bankBottom span{
+	display:inline-block;
+	width:140px;}
+.contRight .bankBottom a{
+	color:#2B85B9;
+	margin-left:65px;}
+.contRight .bank2{
+	background:#EFEFEF;}
+.contRight .jia{
+	text-align:center;
+	line-height:44px;
+	font-size:64px;
+	margin-top:60px;}
+.contRight .jia a{
+	color:#CBCBCB;}
+.contRight .tian{
+	text-align:center;
+	font-size:18px;	
+	margin-top:14px;}
+.contRight .tian a{
+	color:#B9B9B9;}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

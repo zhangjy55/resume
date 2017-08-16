@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{
+	background:url(../images/mammarybanner.png) no-repeat;}
+.banner	.kaui{
+	width:602px;
+	height:340px;
+	right:-20px; top:70px;}
+.banner	.kaui input{
+	margin-top:50px;}
+.banner	.kaui p em{
+	margin-left:2em;}
+.banner	.kaui p:nth-child(3) em{
+	margin-left:0;}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	padding-bottom:180px;}
+.content .cha{
+	text-align:center;
+	margin-top:68px;
+	margin-bottom:80px;
+	height:52px;}
+.content form{
+	text-align:center;}
+.content .input1{
+	width:570px;
+	height:52px;
+	border:1px solid #B3B3B3;
+	vertical-align:top;
+	font-size:18px;
+	color:#D4D2D2;
+	padding-left:15px;
+	box-sizing:border-box;}	
+.content .input2{
+	width:174px;
+	height:52px;
+	font-size:24px;
+	background:#D53F19;
+	vertical-align:top;
+	color:#fff;}
+	
+	
+	

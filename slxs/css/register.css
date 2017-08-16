@@ -1,0 +1,120 @@
+@charset "utf-8";
+.top{
+	height: 120px;
+}
+.cnt{
+	height: 600px;
+	background-color: #000;
+}
+.cnt .img{
+	margin-left: -15%;
+	width: 500px;
+	height: 500px;
+}
+.cnt .img img{
+	width: 400px;
+}
+.cnt .select{
+	width: 350px;
+	margin-top: 6%;
+	padding:25px 25px 23px 25px;
+	background-color: rgba(255,255,255,.97);
+	position:relative;
+	border-radius: 5px;
+	z-index: 5;
+}
+.cnt .select .text{
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 26px;
+	width: 80%;
+	display: flex;
+}
+.cnt .select .text span{
+	margin-right: 16px;
+	flex:1;
+}
+.cnt .select .text .active{
+	color: #0197F6;
+	position: relative;
+}
+.cnt .select .text .active:after{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background-color:#0197F6;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+.cnt .select .user,.cnt .select .pass{
+	border:1px solid #aaa;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+.cnt .select .date{
+	/*padding-top: 15px;*/
+}
+.cnt .select .login{
+	display: block;
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+	background-color: #0197F6;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	border:none;
+	cursor:pointer;
+}
+.cnt .select .sex,.cnt .select .age{
+	float: left;
+	width: 48%;
+}
+.cnt .select .age{
+	margin-right: 4%;
+}
+.cnt .select .other{
+	font-size: 0;
+	color: #aaa;
+}
+.cnt .select .other a{
+	color: #fff;
+	font-size: 16px;
+	/*margin-right: 10px;*/
+}
+.major,.complete{
+	display: none;
+}
+.dl{
+	font-size: 12px;
+	color: #333;
+	float: right;
+	margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

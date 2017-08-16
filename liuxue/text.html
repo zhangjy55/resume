@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>文章详情页</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/text.css" type="text/css">
+    <link rel="stylesheet" href="css/right.css" type="text/css">
+    <link rel="stylesheet" href="css/topBottom.css" type="text/css">
+    <script src="js/js.js"></script>
+
+</head>
+
+<body>
+	<!--TOP-->
+    <div class="top wrap">
+        <div class="subtop gWidth clearfix">
+            <p class="fl">今天是：<span id="showtime" >
+                                        <script> var year=""; mydate=new Date(); mymonth=mydate.getMonth()+1; myday= mydate.getDate(); myyear= mydate.getYear(); year=(myyear > 2000) ? myyear : 1900 + myyear;showtime.innerHTML=year+"-"+mymonth+"-"+myday+"  星期"+"日一二三四五六".charAt(new Date().getDay());
+                                        </script>
+                                    </span>
+         </p>
+         <p class="fr">
+             <a href="#">游学项目</a>
+             <span>|</span>
+             <a href="#">语言培训</a>
+             <span>|</span>
+             <a href="#">专业选择</a>
+             <span>|</span>
+             <a href="#">留学生活</a>
+             <span>|</span>
+             <a href="#" class="active">人才招聘</a>
+         </p>
+        </div>
+    </div>
+    
+    <!--Hadder-->
+    <div class="hadder ">
+        <div class="subHaader gWidth clearfix">
+            <div class="left fl"  onmouseover="show()">
+                <p>
+                    <h3><a href="index.html">河北农业大学留学服务中心</a></h3>
+                    <span>Overseas study consulting center of Agricultural university of Hebei</span>
+                </p>
+            </div>
+            <div class="right fr clearfix">
+                <div class="rightTop clearfix" onmouseover="show()">
+                    <p>站内搜索：</p>
+                    <input type="text" value="请输入要查询的关键词" onfocus="javascript:if(this.value=='请输入要查询的关键词')this.value='';">
+                    <a href="" class="sousuo">搜索</a>
+                </div>
+                <div class="rightBottom fl">
+                    <span class="hid fl" onmouseover="show()">&nbsp</span>
+                    <a href="text.html" onmouseover="show1()">
+                        <span class="menu">留学热点 </span><span class="menu2">Hot Spots</span>
+                    </a>
+                    <a href="school.html" onmouseover="show2()">
+                        <span class="menu">合作大学</span><span class="menu2">University</span>
+                    </a>
+                    <a href="inagetext.html" onmouseover="show3()">
+                        <span class="menu">留学生活 </span><span class="menu2">Study LIfe</span>
+                    </a>
+                    <a href="school.html" onmouseover="show4()">
+                        <span class="menu">留学申请 </span><span class="menu2">Application</span>
+                    </a>
+                    <a href="successful case" onmouseover="show5()">
+                        <span class="menu">语言培训</span><span class="menu2">Language</span>
+                    </a>
+                    <a href="text.html" onmouseover="show6()">
+                        <span class="menu">留学新闻</span><span class="menu2">News</span>
+                    </a>
+                    <a href="school.html" onmouseover="show7()">
+                        <span class="menu">关于我们</span><span class="menu2">About Us</span>
+                    </a>
+                    <a href="text.html" onmouseover="show8()">
+                        <span class="menu">联系我们</span><span class="menu2">Contact Us</span>
+                    </a>
+                    <span class="hid2" onmouseover="show()">&nbsp</span>
+                    <ul class="submenu1" id="menu1">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                     <ul class="submenu2" id="menu2">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                     <ul class="submenu3" id="menu3">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                     <ul class="submenu4" id="menu4">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                    <ul class="submenu5" id="menu5">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                    <ul class="submenu6" id="menu6">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                    <ul class="submenu7" id="menu7">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                    <ul class="submenu8" id="menu8">
+                        <li><a href="">美国</a></li>
+                        <li><a href="">英国</a></li>
+                        <li><a href="">加拿大</a></li>
+                        <li><a href="">澳大利亚</a></li>
+                        <li><a href="">新西兰</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Banner-->
+    <div class="banner" onmouseover="show()">
+        <div class="img"><img src="images/banner2.png" alt="" ></div>
+    </div>
+    
+    <div class="main gWidth clearfix">
+    	<!--LEFT-->
+    	<div class="left fl">
+        	<div class="leftTop">
+            	<p><a href="index.html">首页 </a><span>&lt;</span><a href="#">最新项目</a></p>
+            </div>
+            <div class="leftCenter clearfix">
+            	<div class="centerTop">
+                	<h3>2016美国留学考试时间安排</h3>
+                    <p class="form"><span>来源：河北农大留学</span><span>作者：鲁老师</span><span>时间：2016-01-28</span><span>阅读次数：152</span></p>
+                    <div class="abstract clearfix">
+                    	<p><strong>摘要：</strong>本科转学申请有着一定的特殊性，想成功转学到心仪的学校需要有相应的技巧并付出一定的努力，今天我们想成功转学到为大家分享一个GPA1.889成功转学奥本的案例，希望能对大家有所启发。<a href="#">在线咨询</span></a>
+                    </div>
+                </div>
+                <div class="centerBottom">
+                	<div class="img"><img src="images/texttu1.png" align=""></div>
+                    <h4>特殊的留学方案</h4>
+                    <p>第一次见学生及家长的时候， 我们就对学生的情况做了全面的了解和分析，学生及家长都了解学生目前的现状：学生大一的GPA太低了，这个是不可更改的事实。又由于时间紧迫，学生已不能再耽搁时间了(学生从2013年6月份回国后，一直到现在都在国内)。所以目前我们面临的问题是：时间紧，困难大</p>
+                    <p>为争取时间，我们第一次见面就先让学生及家长明确了各自的任务：</p>
+                    <p>学生：准备托福;联系美国学校，沟通美国成绩单及推荐人的事宜;配合我们做文书素材的搜集及挖掘。</p>
+                    <p>家长：准备存款证明;帮助孩子准备高中的成绩单;开具医院的"甲亢超标"的相关证明及"身体康复"的证明。</p>
+                    <p>与此同时，我们这边"两种方案"同时展开：</p>
+                    <p>方案一：就学生之前申请freshmen时，录取的那几所学校，做针对性套磁，跟学校说明自身情况，询问可否转到他们学校去(当然，具体的套磁细节是需要沟通技巧的，这里就不多说了。)</p>
+                    <p>方案二，根据学生目前的情况及对学校的要求，重新给学生调研学校，做定校前的前期套磁工作。</p>
+                    <p>但是，大多数学校的回复都不是很乐观，主要就是大一GPA太低了，有的学校建议先转到社区大学，GPA达到2.5以上再去申请他们学校，尤其是方案一中的几所学校，没有一所学校愿意接收的。</p>
+                    <p>不过，皇天不负有心人，方案二中的学校终于有几所的回复还是比较乐观的，于是，我们马上对这几所学校做申请前的准备工作， 在文书方面为学生做足了准备，把学生的优势都展现在文书中，万事俱备，只欠东风，待学生新的托福成绩一出来我们就递交申请。</p>
+                </div>
+            </div>
+            <div class="leftBottom2">
+            	<p>上一篇：<a href="#">文科的规划案例</a></p>
+                <p>下一篇：没有了</p>
+            </div>
+            <div class="leftFooter">
+                	<span>分享到：</span>
+                    <a href="#"><img src="images/righttu4.png" alt=""></a>
+                    <a href="#"><img src="images/righttu5.png" alt=""></a>
+                    <a href="#"><img src="images/righttu6.png" alt=""></a>
+                    <a href="#"><img src="images/righttu7.png" alt=""></a>
+                    <a href="#"><img src="images/righttu8.png" alt=""></a>
+                    <a href="#"><img src="images/righttu4.png" alt=""></a>
+                    <a href="#"><img src="images/righttu6.png" alt=""></a>
+                    <a href="#"><img src="images/righttu8.png" alt=""></a>
+                    <a href="#"><img src="images/righttu5.png" alt=""></a>
+            </div>
+        </div>
+        <!--Right-->
+        <div class="right fr">
+        	<div class="subbanner">
+            	<img src="images/successtu2.png" alt="">
+            </div>
+            <div class="ranking">
+            	<div class="rightTop clearfix">
+                	<h5 class="fl">阅读排行</h5>
+                    <a href="#" class="fr">我要申请</a>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href="#">2016年美国留学考试时间表 </a></li>
+                        <li><a href="#">2016年美国留学年美国考试时间表</a></li>
+                        <li><a href="#">2016年美国留学考试时间表</a></li>
+                        <li><a href="#">2016年美国留学年美国考试时间表</a></li>
+                        <li><a href="#">2016年美国留学考试时间表</a></li>
+                        <li><a href="#">2016年美国留学年美国考试时间表  </a></li>
+                        <li><a href="#">2016年美国留学考试时间表</a></li>
+                        <li><a href="#">2016年美国留学年美国考试时间表</a></li>
+                        <li><a href="#">2016年美国留学考试时间表</a></li>
+                        <li><a href="#">2016年美国留学年美国考试时间表</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="case">
+            	<div class="rightTop clearfix">
+                	<h5 class="fl">最新案例</h5>
+                    <a href="#" class="fr">我要申请</a>
+                </div>
+                <div class="content">
+                    <div class="kuai">
+                    	<h6><a href="#">2016年美国本科申请全攻略</a></h6>
+                        <p><a href="#">哈弗、耶鲁、哥伦比亚、斯坦福独家申请攻略</a></p>
+                    </div>
+                    <div class="kuai">
+                    	<h6><a href="#">2016年美国本科申请全攻略</a></h6>
+                        <p><a href="#">哈弗、耶鲁、哥伦比亚、斯坦福独家申请攻略</a></p>
+                    </div>
+                    <div class="kuai">
+                    	<h6><a href="#">2016年美国本科申请全攻略</a></h6>
+                        <p><a href="#">哈弗、耶鲁、哥伦比亚、斯坦福独家申请攻略</a></p>
+                    </div>
+                    <div class="kuai">
+                    	<h6><a href="#">2016年美国本科申请全攻略</a></h6>
+                        <p><a href="#">哈弗、耶鲁、哥伦比亚、斯坦福独家申请攻略</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu clearfix">
+            	<div class="submenu fl">
+                	<a href="#">留学新闻</a></p>
+                </div>
+                <div class="submenu fl">
+                	<a href="#">语言培训</a></p>
+                </div>
+                <div class="submenu fl">
+                	<a href="#">在线咨询</a></p>
+                </div>
+                <div class="submenu fl">
+                	<a href="#">合作院校</a></p>
+                </div>
+                <div class="submenu fl">
+                	<a href="#">考试日历</a></p>
+                </div>
+                <div class="submenu fl">
+                	<a href="#">成功学员</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--List-->
+    <div class="list">
+    	<div class="sublist gWidth clearfix">
+        	<div class="fl clearfix listLeft">
+                <ul class="fl">
+                    <li>留学热点</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+                <ul class="fl">
+                    <li>专业选择</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+                <ul class="fl">
+                    <li>留学生活</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+                <ul class="fl">
+                    <li>合作院校</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+                <ul class="fl">
+                    <li>大学</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+                <ul class="fl">
+                    <li>研究生</li>
+                    <li><a href="#">美国</a></li>
+                    <li><a href="#">英国</a></li>
+                    <li><a href="#">加拿大</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                    <li><a href="#">新西兰</a></li>
+                    <li><a href="#">韩国</a></li>
+                    <li><a href="#">日本</a></li>
+                </ul>
+            </div>
+            <div class="fr listRight">
+            	<h6>农大留学服务</h6>
+                <div class="rightCenter clearfix">
+                	<p class="fl">移动官网</p>
+                    <p class="fl">移动官网</p>
+                    <p class="fl">移动官网</p>
+                </div>
+                <div class="rightbottom">
+                	<span>分享到：</span>
+                    <a href="#"><img src="images/righttu4.png" alt=""></a>
+                    <a href="#"><img src="images/righttu5.png" alt=""></a>
+                    <a href="#"><img src="images/righttu6.png" alt=""></a>
+                    <a href="#"><img src="images/righttu7.png" alt=""></a>
+                    <a href="#"><img src="images/righttu8.png" alt=""></a>
+                    <a href="#"><img src="images/righttu4.png" alt=""></a>
+                    <a href="#"><img src="images/righttu6.png" alt=""></a>
+                    <a href="#"><img src="images/righttu8.png" alt=""></a>
+                    <a href="#"><img src="images/righttu5.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--friendlink-->
+    <div class="background">
+    	<div class="friendlink gWidth clearfix">
+            <h6 class="fl">友情连接：</h6>
+            <p class="link fr">
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+                <a href="#">保定尚美出国留学服务有限公司</a>
+            </p>
+    	</div>
+    </div>
+    
+    <!--Footer-->
+    <div class="footer">
+    	<div class="footerTop clearfix">
+        	<p class="world">
+                <span>
+                    <a href="#">留学热点</a>
+                    <a href="#">Hot Spots</a></span>
+                <span>
+                    <a href="#">合作大学</a>
+                    <a href="#">University</a></span>
+                <span>
+                    <a href="#">留学生活</a>
+                    <a href="#">Study LIfe</a></span>
+                <span>
+                    <a href="#">留学申请</a>
+                    <a href="#">Application</a></span>
+                <span>
+                    <a href="#">语言培训</a>
+                    <a href="#">Language</a></span>
+                <span>
+                    <a href="#">留学新闻</a>
+                    <a href="#">News</a></span>
+                <span>
+                    <a href="#">关于我们</a>
+                    <a href="#">About Us</a></span>
+                <span>
+                    <a href="#">联系我们</a>
+                    <a href="#">Contact</a></span>
+            </p>
+        </div>
+        <div class="dingwei">
+        	<div class="tixing"><img src="images/friendlinktx.png" alt=""></div>
+            <div class="sanjiao"><a href="#"><img src="images/friendlinksan.png" alt=""></a></div>
+        </div>
+        <div class="footerBottom">
+        	<p>Copyright@2015-2019保定尚美出国留学服务有限公司 版权所有 冀ICP备0501035号</p>
+        </div>
+    </div>
+</body>
+</html>

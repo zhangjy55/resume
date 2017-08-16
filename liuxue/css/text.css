@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main .left .leftCenter .centerTop{
+	text-align:center;
+	margin-top:30px;}
+.main .left .leftCenter .centerTop h3{
+	font-size:16px;
+	color:#656565;}
+.main .left .leftCenter .centerTop .form{
+	margin-top:20px;
+	line-height:12px;}	
+.main .left .leftCenter .centerTop span{
+	font-size:12px;
+	color:#CBCBCB;
+	margin-right:25px;}	
+.main .left .leftCenter .centerTop .abstract{
+	width:826px;
+	height:80px;
+	background:#F6FBFF;
+	margin-top:22px;}	
+.main .left .leftCenter .centerTop .abstract p{
+	text-align:left;
+	height:63px;
+	background:#FFFCE7;
+	margin-top:17px;
+	font-size:12px;
+	color:#444444;
+	padding-left:15px;
+	padding-right:22px;
+	line-height:24px;}	
+.main .left .leftCenter .centerTop .abstract a{
+	display:block;
+	float:right;
+	width:68px;
+	height:20px;
+	border-radius:4px;
+	background:#FC4D4D;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	position:relative;
+	top:10px;}	
+	
+.main .left .leftCenter .centerBottom .img{
+	margin:0 auto;
+	width:319px;
+	margin-top:25px;}
+.main .left .leftCenter .centerBottom {
+	font-size:14px;
+	color:#656565;}
+.main .left .leftCenter .centerBottom h4{
+	margin-left:2em;}
+.main .left .leftCenter .centerBottom p{
+	text-indent:2em;
+	margin-top:24px;
+	line-height:26px;}	
+.main .left .leftBottom2{
+	text-align:left;
+	font-size:12px;
+	margin-top:74px;
+	line-height:24px;}	
+.main .left .leftBottom2 a{
+	color:#636363;}	
+	
+.main .left .leftFooter{
+	margin-top:35px;
+	font-size:0;
+	float:right;}
+.main .left .leftFooter span{
+	vertical-align:top;
+	font-size:14px;}
+.main .left .leftFooter a{
+	vertical-align:top;
+	margin-right:6px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

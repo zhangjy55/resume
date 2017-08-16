@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.case{
+	margin-top:60px;}
+.caseTop p span{
+	display:inline-block;
+	padding:0 10px;
+	height:22px;
+	line-height:22px;
+	margin-right:10px;
+	color:#999999;
+	font-size:12px;}
+.caseTop .active{
+	background:#00479D;
+	color:#fff;
+	font-weight:bold;
+	border-radius:4px;
+	font-size:12px;}
+.caseBottom{
+	margin-top:50px;}	
+.caseBottom .kuai{
+	width:222px;
+	height:282px;
+	border:1px solid #CCCCCC;
+	box-sizing:border-box;
+	background:#D4D4D4;
+	margin-right:38px;
+	margin-bottom:20px;}	
+.caseBottom .kuai p{
+	line-height:30px;
+	color:#424343;
+	text-align:center;}	
+.caseBottom .kuai:nth-child(4n){
+	margin-right:0;}	
+.caseBottom .dkuai{
+	display:none;}
+.caseBottom .show{
+	display:block;}		
+.fenye{
+	text-align:center;
+	margin-top:135px;}
+.fenye a{
+	display:inline-block;
+	padding:0 11px;
+	line-height:32px;
+	height:32px;
+	border:1px solid #CDCDCD;
+	margin-right:10px;
+	color:#000;}
+.fenye .a1{
+	background:#0375BB;
+	border:1px solid #0375BB;
+	color:#76C1FA;}	
+.fenye .active,.fenye a:hover{
+	background:#27A5EF;
+	border:1px solid #27A5EF;
+	color:#fff;}	
+.footerbj{
+	margin-top:100px;		
+	
+	
+	

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main .left .leftCenter{
+	margin-top:38px;}
+.main .left .leftCenter .kuai{
+	width:100%;
+	height:95px;
+	border-bottom:1px dashed #CCCCCC;
+	padding-bottom:5px;
+	margin-top:5px;
+	}
+.main .left .leftCenter .content{
+	width:693px;
+	height:95px;
+	padding-left:145px;
+	}
+.main .left .leftCenter .kuai:nth-child(odd) .content{
+	background:url(../images/imagetexttu1.png) left center no-repeat;}
+.main .left .leftCenter .kuai:nth-child(even) .content{
+	background:url(../images/imagetexttu2.png) left center no-repeat;}
+.main .left .leftCenter h5 a{
+	font-size:14px;
+	color:#838B95;
+	line-height:36px;}
+.main .left .leftCenter h5 a:hover{
+	color:#AB0700;}
+.main .left .leftCenter p{
+	color:#999999;
+	font-size:12px;  
+	line-height:18px;
+	margin-top:10px;}
+.main .left .leftBottom{
+	margin-top:116px;
+	}

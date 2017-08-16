@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* Div */
+body{margin:0;color:#000;min-width:320px;-webkit-text-size-adjust:100%;background-color: rgba(63, 202, 184, 0.1);font-family:"微软雅黑";font-size:14px;line-height:20px;}
+img{border-style:none;vertical-align:top;max-width:100%;height:auto;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#ff7700;text-decoration:none;}
+
+
+.c-860{max-width:1226px;margin-top:0px;margin-right:auto;margin-bottom:0px;margin-left:auto;padding-bottom:0px;}
+.c-demoslider{margin:0px auto;}
+/* Global styles */
+.cute-slider{position:relative;visibility:hidden;overflow:hidden;}
+.cute-ie8 *,.cute-ie7 *{filter:inherit;opacity:inherit;}
+/* Slider Controls */
+.br-controls{position:absolute;z-index:10;}
+.br-next,.br-previous,.br-slidecontrol,.br-thumb-bottom .br-thumb-img,.br-thumb-up .br-thumb-img,.br-thumblist{position:absolute;}
+.br-slidecontrol{list-style:none;cursor:auto!important;}
+.br-slidecontrol ul{margin:0px;padding:0px;height:0px;}
+.br-slidecontrol ul li{display:block;position:relative;float:left;cursor:pointer!important;}
+.br-slidecontrol ul li .br-control-selected{display:none;}
+.br-thumb-bottom,.br-thumb-up{position:relative;}
+.br-thumblist{width:100%;text-align:center;height:0px;left:0px;bottom:0px;}
+.br-thumblist-content .br-list-thumb img{cursor:pointer!important;}
+.br-thumb-img img{height:100%!important;}
+.br-slideinfo .top,.br-slideinfo .bottom{width:100%;}
+.br-slideinfo .right,.br-slideinfo .left{height:100%;}
+.br-slideinfo .more-btn{cursor:pointer!important;display:block;position:relative;text-decoration:none;}
+.br-slideinfo .subtitle,.br-slideinfo .title,.br-slideinfo .text{display:block;}
+/* Slider Timer */
+.br-circle-timer,.br-circle-timer .br-timer-dot,.br-bar-timer,.br-bar-timer .br-timer-bar{position:absolute!important;}
+.br-circle-timer .br-timer-dot{left:50%!important;top:50%!important;}
+/* Slider Captions */
+.br-captions div{position:absolute;text-shadow:none;}
+/* Slider Video */
+.br-video .play-btn,.br-video .close-btn{background-repeat:no-repeat;cursor:pointer!important;position:absolute;}
+.br-video .video-cont{position:absolute;z-index:2;}
+.cute-ie8 .video-cont,.cute-ie7 .video-cont{z-index:auto!important;}
+/* Slider Shadow */
+.cute-shadow{width:100%;}
+.cute-shadow img{max-width:100%;}
+/* Slider Loading */
+.br-loading{position:absolute;top:50%;left:50%;z-index:101;}
+.br-large-loading{position:absolute;top:50%;left:50%;z-index:100;}
+.br-loading .img,.br-large-loading .img{width:100%;height:100%;}
+/* Trying to remove all the default global styles of WordPress :) */
+.cute-slider img{max-width:none!important;}
+.cute-slider img,.entry-content .cute-slider img,.comment-content .cute-slider img,.widget .cute-slider img,.cute-shadow img,.entry-content .cute-shadow img,.comment-content .cute-shadow img,.widget .cute-shadow img{border-radius:0px;box-shadow:none;border:0px;margin:0px;}
+.entry-content .cute-slider *,.comment-content .cute-slider *,.widget .cute-slider *{line-height:normal;padding:0px;outline:none;border:0px;margin:0px;}
+.cute-slider br.clear{clear:both;}
+.top div ,.right div,.bottom div,.left div{padding:20px!important;}
+.br-infocontent .title{background:none!important;margin:0px!important;padding:0px!important;}
+.br-infocontent .text{text-align:justify;margin:10px 0px 0px 0px!important;padding:0px!important;}
+/**************** cuteslider end ****************/
+.middle{
+	width: 780px;
+	height: 2500px;
+	margin-right: 151px;
+}
+.Left{
+	margin-right: 10px;
+}
+.Left dt{
+	background-color: #e5e5e5;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+	font-size: 18px;
+    line-height: 3em;
+    padding: 0 20px;
+	width: 931px;
+	height: 54px;
+	box-sizing: border-box;
+}
+.a1{
+	width: 931px;
+	height: 1000px;
+}
+.b1{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	background: #FFFFFF;
+
+	
+}
+.AVA img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{    
+	vertical-align: top;
+    border: none;
+}
+.AVA a{
+	color: #333;
+    vertical-align: baseline;
+	position: relative;
+    width: 60px;
+    height: 60px;
+}
+.AVA{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.TOP{
+	margin: 10px 0 0 76px;
+	font-size: 16px;
+    position: relative;
+}
+.Group {
+    color: #ffb267;
+    margin-left: 10px;
+}
+.Des {
+    font-size: 16px;
+	margin: 20px 0 8px 76px;
+	width: 668px;
+	height: 24px;
+	display: inline-block;
+}
+
+.Des p{
+	width: 668px;
+	height: 24px;
+	display: inline-block;
+}
+.Pic {
+    margin-bottom: 12px;
+	margin: 10px 0 0 76px;
+}
+.Pic span {
+    width: 24%;
+    padding-top: 24%;
+    margin-right: 2%;
+}
+.Pic span {
+    display: inline-block;
+    vertical-align: top;
+	position: relative;
+    overflow: hidden;
+    height: 0;
+}
+.Tail {
+    position: absolute;
+    bottom: 24px;
+    left: 20px;
+    line-height: 23px;
+    color: #999;
+    margin-left: 76px;
+}
+.b2{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+	
+}
+.b3{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+	
+}
+.b4{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+}
+.b5{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+}
+.b6{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+}
+.b7{
+	width: 744px;
+	height: 293px;
+	position: relative;
+    padding: 30px 26px 24px 20px;
+	border-top: 1px solid #eee;
+    margin-top: -1px;
+	background: #FFFFFF;
+}
+
+
+.Box{
+	border-radius: 2px;
+    box-shadow: 0 1px 0 #D5D5D5;
+    background-color: #fff;
+	margin-bottom: 20px;
+}
+dl,dd {
+	margin: 0;
+	padding: 0;
+}
+.Box dt {
+    background-color: #e5e5e5;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.Box dt, dt.Box {
+    font-size: 18px;
+    line-height: 3em;
+    padding: 0 20px;
+}
+dt{
+	display: block;
+}
+.Topics-Hot p {
+    padding: 0 20px;
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.Topics-Hot p, aside .Weibo {
+    border-bottom: 1px solid #eee;
+}
+.Topics-Hot .bot {
+    border-bottom: 0;
+    font-size: 14px;
+    text-align: right;
+}
+.Topics-Hot p {
+    padding: 0 20px;
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.C3fcab8, a:hover {
+    color: #3fcab8;
+}
+.Publish {
+    padding: 28px 44px 28px 36px;
+	display: block;
+    text-align: right;
+    font-size: 18px;
+    overflow: hidden;
+	line-height: 40px;
+	position: relative;
+}
+.c1{
+	position: absolute;
+	left:37px;
+	top: 20px;
+}
+.Pr {
+    position: relative;
+}
+.Sign{
+	line-height: 22px;
+	padding: 28px 44px 28px 36px;
+	height: 44px;
+	display: block;
+    text-align: right;
+    font-size: 18px;
+    overflow: hidden;
+	
+	
+	
+}
+.Sign span{
+	display: block;
+	
+}
+.C999 {
+    color: #999;
+}
+.FS12 {
+    font-size: 12px;
+}
+.Sign b {
+    margin: 0 5px;
+    color: #333;
+	font-weight: 400;
+}
+
+.Sign i{
+	position: absolute;
+	left:37px;
+	top: 20px;
+}
+.Tag dd {
+    padding: 15px;
+    text-align: justify;
+	display: block;
+	margin: 0;
+}
+.Tag dd a {
+    margin: 4px;
+	display: inline-block;
+}
+a {
+    color: #333;
+    vertical-align: baseline;
+}
+.Tag a {
+	font-size: 9px;
+}
+aside .Down {
+    padding: 46px 20px;
+    line-height: 22px;
+    height: 44px;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+aside .Down img {
+    width: 96px;
+    height: 96px;
+    margin: -26px 0;
+}
+.Fl {
+    float: left;
+}
+img {
+    vertical-align: top;
+    border: none;
+}
+.Weibo {
+    height: 50px;
+    line-height: 25px;
+    padding: 25px 44px 25px 36px;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+	position: relative;
+}
+.Weibo span{
+    display: block;
+	position: relative;
+}
+aside .Weibo {
+    height: 50px;
+    line-height: 25px;
+    padding: 25px 44px 25px 36px;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+	overflow: hidden;
+}
+.g1{
+	position: absolute;
+	left:36px;
+	top:20px;
+}
+.v1{
+	
+	display:inline-block;
+	position: absolute;
+	left:88px;
+	top: 4px;
+}
+.Weixin {
+    line-height: 22px;
+    padding: 28px 44px 28px 36px;
+    height: 44px;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    overflow: hidden;
+	position: relative;
+}
+.Weixin span {
+    display: block;
+	position: relative;
+}
+.g2{
+	position: absolute;
+	left:36px;
+	top:20px;
+}
+.v2{
+	
+	display:inline-block;
+	position: absolute;
+	left:88px;
+	top: 4px;
+}
+.Fr{
+	margin-left:20px;
+	width: 275px;
+	height: 1293px;
+	float: right;
+}
+.f1{
+	width: 1226px;
+	height: 2500px;
+}
+
+
+
+
+
+
+
+
+

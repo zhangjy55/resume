@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headbj{
+	width:100%;
+	height:108px;
+	background:#fff;
+	border-bottom:2px solid #DB481B;}	
+.header{
+	height:108px;
+	background:#fff;}
+.header span{
+	display:inline-block;
+	height:108px;
+	vertical-align:middle;}
+.header img{
+	width:259px;
+	height:46px;
+	vertical-align:middle;}	
+.footer{
+	text-align:center;
+	color:#999999;
+	font-size:12px;
+	margin-top:35px;
+	padding-bottom:40px;}	
+.footer span{
+	margin-left:35px;}
+.contRight2{
+	width:486px;
+	text-align:center;}	
+.contRight2 .p2{
+	width:140px;
+	margin:0 auto;
+	font-size:16px;
+	color:#656565;
+	text-align:center;
+	margin-top:33px;}	
+.contRight2 .p2 span{
+	font-size:14px;}	
+.contRight2{
+	margin-top:32px;}
+.rightBottom{
+	width:300px;
+	margin:0 auto;
+	height:400px;}	
+.rightBottom .erweima{
+	width:218px;
+	height:218px;
+	margin:8px auto;}
+.rightBottom .erweima img{
+	width:100%;
+	height:100%;}
+.rightBottom .other{
+	width:200px;
+	text-align:center;
+	margin:0 auto;
+	font-size:14px;
+	color:#656565;
+	margin-top:6px;
+	line-height:24px;}
+.rightBottom .other .xian{
+	background:url(../images/passwordtu2.png) left center no-repeat,url(../images/passwordtu3.png) right center no-repeat;
+	padding-left:92px;
+	padding-right:92px;}	
+.contRight2 .img2{
+	margin:0 8px;}	
+.contRight2 .img{
+	width:292px;
+	margin:0 auto;
+	margin-top:16px;}	
+	
+	
+	
+	

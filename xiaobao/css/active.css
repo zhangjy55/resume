@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	margin-top:44px;
+	padding-bottom:27px;
+	border-bottom:1px solid #E7E7E7;}
+.contLeft{
+	width:44px;
+	text-align:center;
+	font-size:16px;
+	color:#999999;}
+.contLeft p{
+	height:124px;
+	width:100%;
+	background:#E1E1E1;
+	box-sizing:border-box;
+	margin-bottom:1px;}
+.contLeft p span{
+	width:20px;
+	display:inline-block;
+	vertical-align:middle;}
+.contLeft p em{
+	display:inline-block;
+	height:124px;
+	vertical-align:middle;}
+.contLeft .active{
+	background:#D53F19;
+	color:#fff;}
+.contRight{
+	height:1005px;}
+.contRight .kuai{
+	width:1086px;
+	height:316px;
+	border:1px solid #E1E1E1;}
+.contRight .kuai h4{
+	font-size:24px;
+	color:#333333;
+	line-height:92px;}
+.contRight .kuai .neirong{
+	width:395px;}
+.contRight .kuai .p1{
+	font-size:16px;
+	color:#999999;
+	line-height:30px;
+	margin-bottom:15px;}
+.contRight .kuai .p2{
+	font-size:16px;
+	color:#656565;
+	line-height:28px;}
+.contRight .p2 span{
+	color:#999999;}
+.contRight .cany{
+	margin-top:32px;}
+.contRight a{
+	width:180px;
+	height:44px;
+	display:inline-block;
+	text-align:center;
+	line-height:44px;
+	background:#D53F19;
+	color:#fff;}
+.contRight .dw{
+	position:absolute;
+	left:-7px; top:-7px;}
+.contRight .kuai{
+	position:relative;
+	margin-bottom:25px;}
+.contRight .kuai:last-child{
+	margin-bottom:0;}
+.contRight section{
+	display:none;}
+.contRight .show{
+	display:block;}
+
+	
+	
+	
+	
+	
+	

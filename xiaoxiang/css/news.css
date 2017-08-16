@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content h1{
+	font-size:34px;
+	text-transform:uppercase;
+	color:#333333;}
+.content .contTitle{
+	text-align:center;}
+.contTitle .color{
+	color:#FF8A00;
+	margin-right:20px;}
+.contTitle p{
+	width:640px;
+	text-align:center;
+	margin:0 auto;
+	font-size:12px;
+	color:#999999;
+	margin-top:8px;}
+
+.news{
+	margin-top:55px;}
+.newsBottom{
+	width:100%;
+	margin-top:26px;
+	position:relative;}
+.newsBottom .newTop{
+	height:215px;
+	border-bottom:1px solid #BFBFBF;}
+.newsBottom .newBottom{
+	height:215px;
+	border-top:1px solid #000000;
+	}
+.newsBottom .newBottom .newLeft,.newsBottom .newBottom .newRight{
+	padding-top:35px;
+	box-sizing:border-box;}
+.newsBottom .newLeft{
+	width:502px;
+	border-right:1px solid #BFBFBF;
+	height:215px;
+	box-sizing:border-box;}
+.newsBottom .newRight{
+	width:502px;
+	border-left:1px solid #000000;
+	height:215px;
+	padding-left:96px;
+	box-sizing:border-box;}
+.newsBottom h3{
+	font-size:14px;
+	margin-top:13px;
+	margin-left:14px;
+	background:url(../images/newsyuan.png) left center no-repeat;
+	padding-left:22px;}
+.newsBottom h3 a{
+	color:#333333;}
+.newsBottom .world{
+	margin-left:14px;
+	font-size:14px;
+	color:#656565;
+	margin-top:20px;
+	line-height:24px;
+	width:390px;}
+.newsBottom .more{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-104px;
+	margin-top:-104px;}
+.fenye{
+	text-align:center;
+	margin-top:125px;}
+.fenye a{
+	display:inline-block;
+	padding:0 11px;
+	line-height:32px;
+	height:32px;
+	border:1px solid #CDCDCD;
+	margin-right:10px;
+	color:#000;}
+.fenye .a1{
+	background:#0375BB;
+	border:1px solid #0375BB;
+	color:#76C1FA;}	
+.fenye .active,.fenye a:hover{
+	background:#27A5EF;
+	border:1px solid #27A5EF;
+	color:#fff;}
+.footerbj{
+	margin-top:245px;	
+	
+	
+	
+	
+	
+	
+	
+	

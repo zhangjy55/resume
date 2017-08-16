@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{
+	width:100%;
+	height:468px;
+	background-size:100% 468px;
+	}
+.banner2{
+	position:relative;}
+.banner	.kaui{
+	background:#fff;
+	position:absolute;
+	border:1px solid #DCDCDC;
+	padding-left:24px;
+	box-sizing:border-box;
+	z-index:89;
+	}	
+.banner	.kaui h3{
+	color:#D53F19;
+	font-size:24px;
+	margin-top:30px;
+	margin-bottom:25px;}
+.banner	.kaui select{
+	width:240px;
+	height:32px;
+	appearance:none;
+	-moz-appearance:none;
+    -webkit-appearance:none;
+	box-sizing:border-box;
+	background:#F1F1F1 url(../images/brokentu1.png) right center no-repeat;
+	padding-left:10px;}	
+.banner	.kaui option{
+	padding-left:10px;}
+.banner	.kaui span{
+	display:inline-block;
+	width:136px;
+	height:36px;
+	border:1px solid #D7D7D7;
+	color:#656565;
+	font-size:16px;
+	text-align:center;
+	line-height:36px;
+	margin-bottom:15px;
+	margin-right:14px;}
+.banner	.kaui span:nth-child(4n){
+	margin-right:0;}	
+.banner	.kaui p{
+	color:#000;
+	font-size:0;}	
+.banner	.kaui p:nth-child(2){
+	margin-top:15px;
+	}
+
+.banner	.kaui em{
+	margin-right:20px;
+	font-style:normal;
+	font-size:16px;
+	vertical-align:top;}	
+.banner	.kaui strong{
+	font-weight:normal;
+	width:595px;
+	vertical-align:top;}	
+.banner	.kaui input{
+	width:294px;
+	height:55px;
+	background:#D53F19;
+	color:#fff;
+	margin-left:85px;}	
+	
+	
+.content{
+	margin-top:20px;
+	height:575px;
+	border:1px solid #CCCCCC;
+	box-sizing:border-box;}	
+.contTop p{
+	height:43px;
+	background:#F0F0F0;
+	box-sizing:border-box;
+	border-bottom:1px solid #ccc;
+	line-height:43px;
+	padding-left:5px;}
+.contTop span{
+	padding:0 30px;
+	height:41px;
+	line-height:41px;
+	border-top:2px solid #F0F0F0;
+	display:inline-block;
+	font-size:14px;
+	color:#656565;}	
+.contTop em{
+	color:#fff;
+	font-style:normal;}
+.contTop .active{
+	border-top:2px solid #D53F19;
+	color:#D53F19;}	
+.contBottom aside{
+	height:532px;
+	display:none;
+	}	
+.contBottom .show{
+	display:block;}
+.contBottom .image img{
+	width:134px;
+	height:134px;
+	margin-bottom:30px;}	
+.contBottom .image{
+	width:186px;
+	margin-right:12px;
+	text-align:center;}
+.contBottom .image p{
+	font-size:12px;
+	color:#5A5A5A;
+	line-height:24px;}	
+.contBottom .juzh{
+	width:792px;
+	margin:55px auto;}
+.contBottom .evaluateTop{
+	padding-left:45px;
+	margin-top:20px;}
+.contBottom .evaluateTop .p1{
+	width:87px;
+	text-align:center;
+	margin-right:45px;}
+.contBottom .evaluateTop span{
+	font-size:14px;
+	color:#656565;
+	margin-bottom:15px;}	
+.contBottom .evaluateTop strong{
+	font-size:14px;
+	color:#656565;
+	font-size:36px;
+	color:#D53F19;}		
+.contBottom .evaluateTop em{
+	display:inline-block;
+	margin-right:3px;
+	width:15px;
+	height:14px;
+	background:url(../images/star1.png) no-repeat;}	
+.contBottom .evaluateTop em:last-child{
+	margin-right:0;}
+.contBottom .evaluateTop .red{
+	background:url(../images/star2.png) no-repeat;}	
+.contBottom .evaluateTop .p2{
+	line-height:72px;
+	margin-right:20px;}	
+.contBottom .evaluateTop .p2 em:nth-child(1){
+	margin-left:8px;}	
+.contBottom .evaluateTop .p2 span{
+	font-size:14px;
+	color:#656565;
+	margin-left:5px;}	
+.contBottom .evaluateBottom{
+	margin-top:5px;}
+.contBottom .evaluateBottom	h4{
+	width:100%;
+	height:44px;
+	line-height:44px;
+	background:#F0F0F0;
+	border-bottom:1px solid #CCCCCC;}
+.contBottom .evaluateBottom	h4 strong{
+	margin-left:45px;
+	color:#333333;
+	font-size:18px;}
+.contBottom .evaluateBottom	h4 a{
+	margin-right:15px;
+	color:#fff;
+	font-size:14px;
+	width:96px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background:#D53F19;
+	margin-top:8px;}
+.contBottom .evaluateBottom	.pingjia{
+	max-height:385px;
+	overflow:hidden;}
+.contBottom .evaluateBottom	.xkuai{
+	height:120px;
+	border-bottom:1px solid #CCCCCC;}	
+.contBottom .evaluateBottom	.toux{
+	width:80px;
+	text-align:center;
+	margin-left:55px;
+	margin-top:15px;}
+.evaluateBottom	.toux span{
+	background:url(../images/brokentu4.png) right center no-repeat;
+	padding-right:42px;
+	font-size:16px;
+	color:#717171;
+	margin-top:6px;
+	height:20px;
+	line-height:20px;
+	display:inline-block;}
+.evaluateBottom	.center{
+	margin-left:45px;
+	margin-top:18px;}
+.evaluateBottom	.center p{
+	width:100%;}	
+.evaluateBottom	.center em{
+	display:inline-block;
+	margin-right:3px;
+	width:15px;
+	height:14px;
+	background:url(../images/star1.png) no-repeat;}	
+.evaluateBottom	.center .red{
+	background:url(../images/star2.png) no-repeat;}		
+.evaluateBottom	.center span{
+	font-size:12px;
+	color:#656565;
+	margin-left:12px;}	
+.evaluateBottom	.center strong{
+	font-size:12px;
+	color:#656565;
+	margin-left:25px;
+	font-weight:normal;}		
+.evaluateBottom	.center .p2{
+	font-size:14px;
+	color:#333333;
+	margin-top:30px;}	
+.evaluateBottom	.laiyuan{
+	margin-right:15px;
+	margin-top:20px;
+	color:#333333;
+	font-size:14px;}	
+	
+	
+	
+	
+	
+		
+	
+	
+	

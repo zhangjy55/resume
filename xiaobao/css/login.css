@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	height:480px;
+	border:1px solid #E2E2E2;
+	box-sizing:border-box;}
+.contRight{
+	width:510px;
+	background:#F6F6F6;
+	height:100%;}
+.contRight .kuai{
+	width:356px;
+	height:396px;
+	background:#fff;
+	margin:40px 0 0 75px;
+	padding:0 30px 0 30px;
+	box-sizing:border-box;}
+.contRight h3{
+	color:#5B5B5B;
+	font-size:24px;
+	line-height:1;
+	margin-top:30px;}
+.contRight h3 a{
+	color:#FF8D0D;
+	font-size:14px;
+	background:url(../images/logintu2.png) left center no-repeat;
+	padding-left:21px;
+	line-height:16px;}
+.contRight .text,.contRight .pass,.contRight .text2{
+	height:38px;
+	border:1px solid #C8C8C8;
+	margin-top:20px;
+	padding-left:40px;
+	box-sizing:border-box;}
+.contRight .text{
+	background:url(../images/logintu3.png) left center no-repeat, url(../images/logintu6.png) right center no-repeat;
+	width:294px;
+	padding-right:32px;}
+.contRight .pass{
+	background:url(../images/logintu4.png) left center no-repeat, url(../images/logintu7.png) right center no-repeat;
+	width:294px;
+	padding-right:35px;}
+.contRight .text2{
+	width:184px;
+	background:url(../images/logintu8.png) left center no-repeat;
+	margin-top:0;}
+.contRight .p1{
+	margin-top:20px;
+	height:38px;
+	line-height:38px;
+	margin-bottom:15px;}
+.contRight .p1 img{
+	width:57px;
+	height:38px;
+	margin-left:28px;}
+.contRight .jizh{
+	margin-left:5px;
+	vertical-align:middle;
+	font-size:14px;
+	color:#656565;}
+.contRight #kuai{
+	vertical-align:middle;
+	margin-top:2px;
+	background:#EBEBEB;}
+.contRight p a{
+	color:#656565;
+	font-size:14px;}
+.contRight .dl{
+	width:294px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	background:#DB481B;
+	color:#fff;
+	margin:15px 0 12px 0;}
+.contRight .img2{
+	margin:0 8px;}
+.contRight .p3{
+	margin-top:10px;}
+.contRight .p3 a{
+	font-size:12px;
+	color:#2B85B9;}

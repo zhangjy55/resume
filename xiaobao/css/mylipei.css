@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+.contRight .lipei{
+	font-size:14px;
+	color:#656565;
+	padding-left:22px;
+	line-height:50px;}
+.contRight .lipei span{
+	margin:0 7px;}
+.contRight .lipei a{
+	color:#656565;}
+.contRight{
+	background:#fff;
+	margin-top:19px;}
+.contBottom{
+	margin-left:22px;}
+.contBottom .biaotou th{
+	height:32px;
+	text-align:center;
+	background:#F7F7F7;
+	color:#333333;
+	font-size:14px;
+	font-weight:normal;
+	border-right:1px solid #F7F7F7;}
+.contBottom .biaotou tr{
+	width:952px;
+	box-sizing:border-box;}
+.contBottom .biaotou th:nth-child(1){
+	width:267px;}
+.contBottom .biaotou th:nth-child(2){
+	width:106px;}
+.contBottom .biaotou th:nth-child(3){
+	width:106px;}
+.contBottom .biaotou th:nth-child(4){
+	width:248px;}
+.contBottom .biaotou th:nth-child(5){
+	width:106px;}
+.contBottom .biaotou th:nth-child(6){
+	width:112px;}
+.contBottom .table1 tr:nth-child(1){
+	height:32px;
+	background:#F7F7F7;
+	font-weight:normal;
+	color:#656565;
+	font-size:14px;
+	text-align:left;
+	box-sizing:border-box;}
+.contBottom .table1{
+	margin-top:10px;}
+.contBottom .table1 tr th{
+	padding-left:12px;
+	font-weight:normal;}
+.contBottom .table1 td{
+	border-right:1px solid #E5E5E5;
+	border-bottom:1px solid #E5E5E5;
+	text-align:center;
+	color:#656565;
+	font-size:14px;}	
+.contBottom .table1 td:nth-child(1){
+	width:267px;}
+.contBottom .table1 td:nth-child(2){
+	width:106px;}
+.contBottom .table1 td:nth-child(3){
+	width:106px;}
+.contBottom .table1 td:nth-child(4){
+	width:248px;}
+.contBottom .table1 td:nth-child(5){
+	width:106px;}
+.contBottom .table1 td:nth-child(6){
+	width:112px;}	
+.contBottom .table1 tr:nth-child(2){
+	height:90px;}	
+.contBottom .table1 td span{
+	background:url(../images/myordertu2.png) left center no-repeat;
+	padding-left:120px;
+	display:inline-block;
+	line-height:70px;}	
+.contBottom .table1:nth-child(2) td span{
+	background:url(../images/myordertu1.png) left center no-repeat;}
+.contBottom .table1 td em{
+	font-style:normal;
+	display:block;}	
+.contBottom .table1 td a{
+	color:#2B85B9;
+	display:block;}		
+	
+	
+	
+	
+	
+	

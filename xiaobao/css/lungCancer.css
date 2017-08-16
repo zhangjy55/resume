@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{
+	background:url(../images/lungbanner.png) no-repeat;}
+.banner	.kaui{
+	width:600px;
+	height:338px;
+	right:-20px; top:70px;}
+.banner	.kaui input{
+	margin-top:20px;}
+.banner	.kaui p em{
+	margin-left:2em;}

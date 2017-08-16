@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content=" width=device-width,minimum-scale=1,maximum-scale=1">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+<title>移动端作业1</title>
+<style>
+	@font-face {
+	  font-family: 'iconfont';
+	  src:url('font/iconfont.eot');
+	  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+	  url('font/iconfont.woff') format('woff'),
+	  url('font/iconfont.ttf') format('truetype'),
+	  url('font/iconfont.svg#iconfont') format('svg');}
+	.iconfont{
+	  font-family:"iconfont" !important;
+	  font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -webkit-text-stroke-width: 0.2px;
+	  -moz-osx-font-smoothing: grayscale;
+	  color:#fff;}
+  
+</style>
+</head>
+<body>
+        <header class="gWidth">
+            <div class="img"><img src="images/banner.png"></div>
+            <div class="zhe clearfix">
+                <a href="#" class="iconfont fl fenlei">&#xe66f;<em>分类</em></a>
+                <input class="fl" type="text" value="输入搜索关键词" onfocus="javascript:if(this.value=='输入搜索关键词')this.value='';">
+                <a href="#" class="gouwu iconfont fr">&#xe655;</a>
+            </div>
+        </header>
+        <div class="bottom gWidth clearfix">
+        	<div class="content1 xgWidth mt">
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu1.png" alt="" ></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu2.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu3.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu4.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu5.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu6.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu7.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+                <div class="kuai">
+                    <div class="img"><a href="#"><img src="images/cont1tu8.png" alt=""></a></div>
+                    <p>儿科用药</p>
+                </div>
+            </div>
+            <div class="content2 xgWidth content mt">
+                <div class="cont2Top"><h4>全网最低价</h4></div>
+                <div class="contBottom clearfix">
+                    <div class="cont2Left fl">
+                        <h5><a href="#">【力魂】灵芝益寿胶囊</a></h5>
+                        <p>￥8.99</p>
+                        <div class="imgt"><a href="#"><img class="stu1" src="images/cont2tu1.png" alt=""></a></div>
+                    </div>
+                    <div class="cont2Right fr">
+                    	<div class="rightTop clearfix">
+                        	<div class="fl">
+                            	<h5 class="h51"><a href="#">[永安康健]</a></h5>
+                                      <h5><a href="#">玛咖</a></h5>
+                                      <p>￥119.00</p>
+                            </div>
+                            <div class="fr imgt2"><img class="stu2" src="images/cont2tu2.png" alt=""></div>
+                        </div>
+                        <div class="rightBottom clearfix">
+                            <div class="fl imgt3">
+                                <img src="images/cont2tu3.png" class="stu3" alt="">
+                            </div>
+                            <div class="fr">
+                                <h5 class="h5t"><a href="#">【金奥力】</a></h5>
+                                <h5><a href="#">蜂胶胶囊</a></h5>
+                                <p>￥138.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content3 xgWidth content">
+                <img src="images/cont3tu1.png"  alt="">
+            </div>
+            <div class="content4 xgWidth content">
+                <div class="cont4Top"><h4>答谢恩师</h4></div>
+                <div class="cont4bottom clearfix">
+                    <div class="cont4left fl">
+                        <div class="cont4xtop clearfix">
+                            <div class="fl">
+                                <h5 class="h5t"><a href="#">[恒诚]</a></h5>
+                                <h5><a href="#">跌打榜药酒</a></h5>
+                                <p>￥13.80</p>
+                            </div>
+                             <div class="fr">
+                                <img src="images/cont4tu1.png" class="stu4" alt="">
+                            </div>
+                        </div>
+                        <div class="cont4xbottom clearfix">
+                            <div class="fl"><img src="images/cont4tu2.png" alt="" class="stu5"></div>
+                            <div class="fr">
+                                <h5 class="h5t"><a href="#">[万通] 颈痛灵药酒</a></h5>
+                                <p>￥25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont4right fl">
+                        <h5><a href="#">鸿茅药酒（500ml）</a></h5>
+                        <p>￥196.00</p>
+                        <div class="imgtu5 fr"><img src="images/cont4tu3.png" alt="" class="stu6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content5 xgWidth content"><img src="images/cont5tu.png"  alt=""></div>
+            <div class="content6 xgWidth content">
+                 <div class="cont6Top"><h4>美美哒</h4></div>
+                 <div class="cont6Bottom clearfix">
+                    <div class="yuanb fl"><img src="images/cont6tu2.png" alt=""></div>
+                     <div class="cont6Left fl clearfix">
+                         <h6><a href="#">【姿美堂】胶原蛋白粉</a></h6>
+                         <p>￥89.00</p>
+                         <div class="cont6tu fr"><img src="images/cont6tu1.png" alt="" class="stu7"></div>
+                     </div>
+                     <div class="cont6Righ fl">
+                         <div class="cont6Xtop">
+                             <h5><a href="#">新加坡DRC亮白蚕丝<br>精华液</a></h5>
+                             <p>￥15.80</p>
+                             <div class="cont6tu2"><img src="images/cont6tu3.png" alt=""></div>
+                         </div>
+                         <div class="cont6Xbottom clearfix">
+                            <div class="cont6tu4 fl"><img src="images/cont6tu4.png" alt=""></div>
+                            <div class="fl">
+                                <h5><a href="#">【爱美得】<br>&nbsp;大眼睛睫毛膏</a></h5>
+                                 <p>￥36.00</p>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="content7 xgWidth content clearfix">
+                <p class="fl"><a href="#">登录</a><span>|</span><a href="#">注册</a></p>
+                <p class="fr fanhui"><a href="#">回首页</a></p>
+            </div>
+            <div class="content8 gWidth content">
+                <ul>
+                    <li><a href="#">触屏版</a><span>|</span><a href="#">电脑版</a><span>|</span><a href="#">APP版</a></li>
+                    <li><em>正规药店</em><em>提供发票</em><em>7天退换货</em></li>
+                    <li class="cu">咨询电话：400-7579-818</li>
+                </ul>
+            </div>
+            <div class="content9 xgWidth content">
+            </div>
+        </div>      
+</body>
+</html>

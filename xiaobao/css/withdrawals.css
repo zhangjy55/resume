@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contRight{
+	background:#fff;
+	margin-top:19px;}
+.contRight h3{
+	font-size:14px;
+	color:#656565;
+	line-height:50px;
+	padding-left:20px;
+	border-bottom:1px solid #D6D6D6;}	
+.contRight h3 a{
+	color:#656565;}	
+.contRight .tixian{
+	height:108px;
+	background:#FFF1F1;
+	margin-bottom:25px;}	
+.contRight .tixian p{
+	margin-left:50px;}	
+.contRight .tixian .world{
+	margin-top:16px;
+	color:#333333;
+	line-height:30px;
+	font-size:14px;}	
+.contRight .tixian .jine{
+	font-size:32px;
+	color:#DF4547;}	
+.contRight .tixian span{
+	color:#656565;
+	font-size:14px;}	
+.contRight select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width:258px;
+	height:34px;
+	border:1px solid #DFDFDF;
+	box-sizing:border-box;
+	color:#C3BCC3;
+	font-size:12px;
+	padding-left:4px;
+	background:url(../images/withdrawalstu.png) right center no-repeat;}	
+.contRight form p{
+	margin-left:50px;
+	color:#656565;
+	font-size:14px;
+	margin-bottom:50px;}	
+.contRight select option:nth-child(1){
+	background:url(../images/withdrawalstu1.png) left center no-repeat;
+	padding-left:26px;
+	margin-left:4px;}	
+.contRight option span{
+	display:inline-block;
+	width:16px;
+	height:15px;
+	background:url(../images/withdrawalstu1.png) center center;
+	}	
+.contRight input{
+	height:34px;
+	border:1px solid #DFDFDF;
+	box-sizing:border-box;
+	padding-left:8px;}
+.contRight .txje input{
+	width:258px;}	
+.contRight .phone span{
+	margin-left:28px;}
+.contRight .yzm	input{
+	width:134px;}
+.contRight .yzm	a{
+	width:95px;
+	height:34px;
+	background:#BFBFBF;
+	text-align:center;
+	line-height:34px;
+	font-size:14px;
+	color:#FFFFFF;
+	display:inline-block;
+	margin-left:10px;}	
+.contRight .confirm	input{
+	width:134px;
+	height:36px;
+	background:#D53F19;
+	font-size:16px;
+	color:#FFFFFF;
+	margin-left:69px;
+	padding:0;}
+	
+	
+	
+	
+	
+	
+	
+	
+	

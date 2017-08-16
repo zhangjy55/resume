@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content1 .divtu{
+	width:400px;
+	height:300px;
+	border:1px solid #0D9590;
+	margin:0 auto;
+	text-align:center;
+	}
+.content1 img{
+	vertical-align:middle;}
+.content1 span{
+	vertical-align:middle;
+	display:inline-block;
+	height:300px;}
+.content2{
+	margin-top:26px;
+	text-indent:2em;
+	color:#656565;
+	font-size:12px;
+	line-height:30px;}
+.content3{
+	margin-top:70px;
+	font-size:12px;
+	color:#656565;
+	line-height:30px;
+	padding-left:28px;}
+.content3 a{
+	color:#656565;}
+.footer{
+	margin-top:178px;}
+
+
+
+
+

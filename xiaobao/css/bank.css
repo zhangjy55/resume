@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	font-size:14px;}
+.cont1 .bank{
+	width:1160px;
+	height:314px;
+	border:1px solid #E5E5E5;
+	margin:20px 0;}
+.cont1 .bankTop{
+	height:45px;
+	line-height:45px;
+	border-bottom:1px solid #e5e5e5;}	
+.cont1 .bankTop span{
+	margin-right:60px;
+	display:inline-block;
+	line-height:40px;
+	border-bottom:3px solid #fff;}	
+.cont1 .bankTop .active{
+	border-bottom:3px solid #DB4F24;
+	color:#DB4F24;}
+.cont1 .bankTop p{
+	padding-left:30px;}	
+.cont1 .bankBottom{
+	padding-left:32px;
+	padding-right:180px;
+	margin-top:24px;}
+.cont1 .bankBottom img{
+	width:139px;
+	height:40px;
+	vertical-align:middle;}
+.cont1 .bankBottom input{
+	vertical-align:middle;
+	margin-right:6px;}	
+.cont1 .bankBottom p{
+	margin-right:30px;
+	margin-bottom:20px;}	
+.cont1 .bankBottom div{
+	display:none;}	
+.cont1 .bankBottom .show{
+	display:block;}	
+	
+	
+	
+	
+	
+	

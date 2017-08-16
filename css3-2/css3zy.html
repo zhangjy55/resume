@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>css3动画</title>
+<link rel="stylesheet" href="css/common.css" type="text/css">
+<style>
+p{
+	 text-transform:uppercase;
+	 color:#eee;
+	 font-size:20px;
+	 text-align:center;
+	 height:30px;}
+span{
+	display:inline-block;
+	transition:1s;}
+strong{
+	font-style:normal;}
+
+.box1{
+	background:#425A6C;
+	margin-top:30px;
+	display:flex;}
+.box1 p{
+	flex:1;
+	margin-top:72px;}
+.box1 span{
+	opacity:0;
+	}
+.box1 .left:hover .kuo1{
+	transform: translateX(-20px);
+	opacity:1;}
+.box1 .left:hover .kuo2{
+	transform: translateX(20px);
+	opacity:1;}
+.box1 .right:hover .kuo1{
+	transform: translateX(-20px);
+	opacity:1;}
+.box1 .right:hover .kuo2{
+	transform: translateX(20px);
+	opacity:1;}
+
+.box2{
+	background:#3AA568;
+	padding:0 20px;
+	box-sizing:border-box;
+	}
+.box2 p{
+	float:left;
+	margin-top:80px;
+	transition:.25s; 
+	}
+.box2 .center{
+	margin:80px 36px;}
+.box2 .left:hover,.center:hover,.box2 .right:hover{
+	border-bottom:5px solid #fff;}
+.box3{
+	background:#0080D0;
+	}
+.box3 p{
+	margin-top:66px;
+	height:46px;
+	line-height:46px;
+	position:relative;
+	left:50px;
+	float:left;
+	border-top:2px solid #0070B6;
+	font-size:24px;
+	width:150px;}
+.box3 .left{
+	width:140px;
+	margin-right:50px;}
+.box3 .left .hui,.box3 .left .bai{
+	position:absolute;
+	left:0; top:0;
+	}
+.box3 .left .hui,.box3 .right .hui{
+	color:#0073BB;}
+.box3 .right .hui,.box3 .right .bai{
+	position:absolute;
+	left:0; top:0;
+	}
+.box3 .left .bai,.box3 .right .bai{
+	width:0%;
+	overflow:hidden;
+	border-bottom:2px solid #fff;}
+.box3 .left:hover .bai,.box3 .right:hover .bai{
+	width:100%;}
+.box4{
+	background:#425A6C;}
+.box4 p{
+	border:3px solid #344857;
+	float:left;
+	height:40px;
+	line-height:40px;
+	margin-top:70px;
+	text-align:center;
+	position:relative;}
+.box4 .left{
+	margin-left:57px;
+	margin-right:54px;
+	width:109px;}
+.box4 .right{
+	width:184px;}
+.box4 .left span,.box4 .right span{
+	height:40px;
+	width:100%;
+	display:inline-block;
+	border:3px solid #fff;
+	position:absolute;
+	left:2px; bottom:2px;
+	opacity:0;
+	}
+.box4 .left:hover span,.box4 .right:hover span{
+	position:absolute;
+	left:-2px; bottom:-2px;
+	opacity:1;}
+</style>
+</head>
+
+<body>
+	<div class="box1 box">
+    	<p class="left"><span class="kuo1">[</span><strong>wafture</strong><span class="kuo2">]</span></p>
+        <p class="right"><span class="kuo1">[</span><strong>sunptuous</strong><span class="kuo2">]</span></p>
+    </div>
+    <div class="box2 box">
+    	<p class="left">wafture</p>
+        <p class="center">sunptuous</p>
+        <p class="right">wafture</p>
+    </div>
+    <div class="box3 box">
+    	<p class="left"><span class="hui">desultory</span><span class="bai">desultory</span></p>
+        <p class="right"><span class="hui">sumptuous</span><span class="bai">sumptuous</span></p>
+    </div>
+    <div class="box4 box">
+    	<p class="left">wafture<span></span></p>
+        <p class="right">wafture<span></span></p>
+    </div>
+    <div class="box5 box">
+    </div>
+    <div class="box6 box">
+    </div>
+</body>
+</html>

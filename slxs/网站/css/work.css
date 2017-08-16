@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+.subnav{
+	margin-top:50px;
+	font-size:14px;}
+.subnav a{
+	color:#000;
+	}
+.subnav a:hover{
+	font-weight:bold;
+	color:#900;}
+.content1{
+	margin-top:30px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	padding:35px 20px;
+	box-sizing:border-box;}
+
+.content1 select
+{
+ font-size:9pt;
+ font-family:Verdana;
+ border:1px solid #888;
+ margin-right:5px;
+ background:#e5e5e5;}
+.content1 a
+{
+ color:red;
+ text-decoration:none;
+}
+.content1 a:hover{
+ text-decoration:underline;
+}
+.content1 .choose{
+	margin-right:10px;}
+.content1 .cont1Right{
+	margin-left:20px;}
+.content1 .cont1Bottom{
+	margin-top:20px;}
+.content1 .text{
+	width:300px;
+	height:30px;
+	border:1px solid #888;
+	padding-left:15px;
+	border-radius:5px;}
+.content1 .tijiao{
+	width:150px;
+	height:30px;
+	background:#F90;
+	border-radius:5px;
+	color:#fff;
+	font-weight:bold;
+	margin-left:20px;}
+.content2{
+	margin-top:50px;
+	margin-bottom:50px;}
+.content2 .cont2Left{
+	vertical-align:top;
+	width:200px;
+	border:2px solid #F90;
+	box-sizing:border-box;
+	padding:10px 15px;
+	position:fixed;
+	}
+.content2 select{
+	border:1px solid #999;
+	margin-top:15px;
+	width:90px;}
+.content2 input{
+	width:90px;
+	height:25px;
+	background:#FC3;
+	margin-top:15px;
+	color:#fff;
+	border-radius:5px;}
+.content2 li{
+	line-height:34px;
+	display:flex;
+	width:100%;
+	font-size:14px;
+	background:#E0E0E0;
+	padding-left:15px;
+	box-sizing:border-box;
+	border-radius:3px;}
+.content2 li:nth-child(2n){
+	background:#F4F4F4;}
+.content2 li:hover{
+	background:#FFC;}
+.content2 li a{
+	flex:2;
+	color:#000;}
+.content2 li span{
+	flex:1;}
+.content2 .cont2Right{
+	width:950px;
+	vertical-align:top;}
+.content2 .name{
+	margin:0 15px 0 25px;}
+.content2 .title{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#F00;}
+
+
+
+
+
+
+

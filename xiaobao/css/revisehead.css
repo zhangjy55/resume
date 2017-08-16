@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contRight{
+	background:#fff;
+	margin-top:19px;}
+.contRight h4{
+	height:52px;
+	border-bottom:1px solid #D5D5D5;
+	line-height:52px;
+	padding-left:20px;
+	font-size:14px;
+	color:#656565;}
+.contRight .xuanx{
+	font-size:16px;
+	color:#5B5B5B;
+	padding-left:22px;
+	line-height:34px;
+	margin-top:4px;}
+.contRight .xuanx em{
+	font-style:normal;
+	margin:0 36px;}
+.contRight .xuanx a{
+	display:inline-block;
+	color:#5B5B5B;}
+.contRight .xuanx .active{
+	border-bottom:2px solid #D53F19;
+	color:#DF4547;}
+.contRight .choose{
+	width:202px;
+	height:34px;
+	font-size:12px;
+	color:#656565;
+	background:#E2E2E2;
+	line-height:34px;
+	text-align:center;}
+.contRight .choose span{
+	background:url(../images/reviseheadtu1.png) left center no-repeat;
+	padding-left:21px;}
+.rightLeft{
+	padding-left:82px;
+	width:583px;
+	box-sizing:border-box;
+	}
+.contBottom{
+	margin-top:55px;}
+.rightLeft .tishi{
+	font-size:12px;
+	color:#999999;
+	line-height:20px;}
+.rightLeft .xiang{
+	width:472px;
+	height:238px;
+	box-sizing:border-box;
+	border:1px solid #E7E8EA;
+	margin-top:10px;
+	background:#FAFAFA url(../images/reviseheadtu2.png) center center no-repeat;
+	margin-bottom:40px;}
+.rightLeft .bao input{
+	width:134px;
+	height:36px;
+	background:#D53F19;
+	font-size:16px;
+	color:#fff;}
+.rightRignt{
+	border-left:1px solid #EAEBED;
+	height:316px;
+	padding-left:30px;}
+.rightRignt .xiaog{
+	font-size:14px;
+	color:#656565;
+	font-weight:bold;}
+.rightRignt .tish{
+	width:254px;
+	color:#999999;
+	font-size:12px;
+	line-height:18px;
+	margin-top:4px;}
+.rightRignt .img{
+	width:100px;
+	text-align:center;}
+.rightRignt .img span{
+	color:#999999;
+	font-size:12px;
+	display:block;
+	margin-top:5px;}
+.rightRignt .img1{
+	margin:20px 0;}
+
+
+
+
+

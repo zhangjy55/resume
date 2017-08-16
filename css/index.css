@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mrt{
+    margin-top: 30px;
+}
+header{
+    height: 150px;
+    background-color: #BFCFFF;
+}
+.header{
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.headLeft img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    border:3px solid #FFC488;
+}
+.name h1{
+    margin-left: 30px;
+    margin-top: 15px;
+    color:#000080;
+    text-align: center;
+}
+.headRight{
+    margin-right: 15px;
+    color: #333;
+    line-height: 34px;
+}
+.menubg{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #f7ecec;
+}
+.works .kuai{
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    border:1px solid #bbb;
+    position: relative;
+    border-radius:5px;
+    margin-right: 122px;
+    margin-bottom: 30px;
+}
+.works .kuai:nth-child(3n){
+    margin-right: 0;
+}
+.works .kuai img,.works .kuai .imgs{
+    width: 100%;
+    height: 100%;
+    transition:1s; 
+}
+.works .kuai .imgs{
+     transition:1s 1s; 
+}
+.works .kuai:hover img{
+    transform: scale(1.5); 
+}
+.works .kuai:hover .imgs{
+    transform:translatey(-90px);
+}
+.works .kuai .zhe{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5,5,5,.7);
+    text-align: center;
+    line-height: 350px;
+    
+}
+.works .kuai:nth-child(1) .zhe{
+    transform: rotateZ(100deg);
+    transform-origin: 0px 0px;
+}
+.works .kuai:nth-child(1):hover .zhe{
+    transform: rotateZ(0deg);
+    transition:1s 2s;
+}
+.works .kuai a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.works .kuai:nth-child(2) .zhe{
+    transform: rotateY(180deg);
+    transform-origin: left center;
+    perspective: 200px;
+}
+.works .kuai:nth-child(2):hover .zhe{
+    transform: rotateY(0deg);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(3) .zhe{
+    transform: translateX(250px);
+}
+.works .kuai:nth-child(3):hover .zhe{
+    transform: translateX(0px);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(4) .zhe{
+    transform: scale(0); 
+}
+.works .kuai:nth-child(4):hover .zhe{
+    transform: scale(1); 
+    transition:1s 2s;
+}
+
+.works .kuai:nth-child(5) .zhe{
+    transform:skew(90deg);
+}
+.works .kuai:nth-child(5):hover .zhe{
+    transform:skew(0deg); 
+    transition:1s 2s;
+}
+
+.works .kuai:nth-child(6) .zhe{
+    transform: scale(0) rotateZ(540deg);
+}
+.works .kuai:nth-child(6):hover .zhe{
+    transform: scale(1) rotateZ(0deg);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(7) .zhe{
+    transform: translateY(350px);
+}
+.works .kuai:nth-child(7):hover .zhe{
+    transform: translateX(0px);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(8) .zhe{
+    transform:skew(-90deg) scale(0);
+}
+.works .kuai:nth-child(8):hover .zhe{
+    transform:skew(0deg) scale(1);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(9) .zhe{
+    transform: rotateZ(100deg);
+    transform-origin: 0px 0px;
+}
+.works .kuai:nth-child(9):hover .zhe{
+    transform: rotateZ(0deg);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(10) .zhe{
+    transform: translateX(250px);
+}
+.works .kuai:nth-child(10):hover .zhe{
+    transform: translateX(0px);
+    transition:1s 2s;
+}
+.works .kuai:nth-child(11) .zhe{
+    transform: scale(0) rotateZ(540deg);
+}
+.works .kuai:nth-child(11):hover .zhe{
+    transform: scale(1) rotateZ(0deg);
+    transition:1s 2s;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    background-color:#BFCFFF;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,61 @@
+@charset "utf-8";
+.top{
+	height: 120px;
+}
+.cnt{
+	height: 600px;
+	background-color: #000;
+}
+.cnt .img{
+	margin-left: -15%;
+	width: 500px;
+	height: 500px;
+}
+.cnt .img img{
+	width: 400px;
+}
+.cnt .select{
+	width: 350px;
+	height: 350px;
+	margin-top: 6%;
+	padding:25px 25px 23px 25px;
+	background-color: rgba(255,255,255,.97);
+	position: relative;
+	}
+.cnt .select .text{
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 26px;
+}
+.cnt .select .user,.cnt .select .pass{
+	border:1px solid #aaa;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+.cnt .select .login{
+	display: block;
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+	background-color: #0197F6;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.cnt .select .other{
+	font-size: 0;
+	color: #aaa;
+}
+.cnt .select .other a{
+	color: #333;
+	font-size: 12px;
+	margin-right: 10px;
+}

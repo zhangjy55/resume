@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cont1 .success{
+	height:260px;
+	text-align:center;}
+.cont1 .success h5{
+	color:#009903;
+	font-size:24px;
+	margin-top:80px;}	
+.cont1 .success a{
+	width:244px;
+	height:55px;
+	display:inline-block;
+	color:#FFFFFF;
+	font-size:20px;
+	line-height:55px;
+	text-align:center;
+	background:#D53F19;
+	margin-top:42px;}	
+.cont1 .imgtu{
+	text-align:center;
+	margin:40px 0;}
+.cont1 .imgtu span{
+	width:153px;
+	height:40px;
+	display:inline-block;
+	margin-right:5px;}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

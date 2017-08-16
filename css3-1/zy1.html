@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>动画1</title>
+<link rel="stylesheet" href="css/common.css" type="text/css">
+<style>
+.box{
+	margin-top:30px;}
+.box1{
+	position:relative;
+	width:300px;
+	height:300px;}
+.box1 .imgt{
+	border-top:10px solid #ECAB18;
+	border-left:10px solid #ECAB18;
+	border-bottom:10px solid #1AD280;
+	border-right:10px solid #1AD280;
+	border-radius:50%;
+	transition:3s;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0; top:0;
+	box-sizing:border-box;
+	z-index:4;
+	}
+.box1:hover .imgt{
+	transform: rotate(180deg);
+	}
+.box1:hover .zhe{
+	opacity:1;}
+.box1 img{
+	position:absolute;
+	left:0; top:0;
+	border-radius:150px;}
+.zhe{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	text-align:center;
+	padding-top:75px;
+	box-sizing:border-box;
+	color:#fff;
+	pointer-events:none;
+	background:#333333;
+	}
+.box1 .zhe{
+	position:absolute;
+	left:0; top:0;
+	background:rgba(4,4,4,.5);
+	opacity:0;
+	transition:3s 1s;
+	}
+.zhe h3{
+	font-size:16px;
+	width:115px;
+	margin:0 auto;}
+.zhe p{
+	width:150px;
+	text-align:center;
+	margin:0 auto;
+	font-size:10px;
+	border-top:1px solid #8BAAC3;
+	line-height:36px;
+	margin-top:12px;
+	}
+.box2{
+	margin-top:30px;
+	width:280px;
+	height:280px;
+	position:relative;}
+.box2 .imgtu{
+	width:100%;
+	height:100%;
+	border:10px solid rgba(255,255,255,.7);
+	background:url(images/3.jpg);
+	border-radius:50%;
+	transition:1s;
+	z-index:1;
+	}
+.box2:hover .imgtu{
+	transform:rotate(90deg);
+	}
+.box2:hover .zhe{
+	transform: translateX(0px);
+	opacity:1;}
+.box2 .zhe{
+	background:rgba(5,5,5,.6);
+	position:absolute;
+	left:0; top:0;
+	transform:translateX(300px);
+	width:300px;
+	height:300px;
+	opacity:0;
+	transition:1s;
+	overflow:hidden;
+	z-index:2;
+	}
+.box3{
+	margin-top:30px;
+	width:280px;
+	height:280px;
+	position:relative;}
+.imgtu{
+	width:100%;
+	height:100%;
+	border:10px solid rgba(255,255,255,.7);
+	background:url(images/4.jpg);
+	border-radius:50%;
+	transition:1s;
+	position:relative;
+	z-index:3;
+	}
+.box3 .zhe,.box4 .zhe{
+	
+	position:absolute;
+	left:300px; top:0;
+	z-index:2;
+	opacity:0;
+	transition:1s;}
+.box3:hover .zhe,.box4:hover .zhe{
+	transform:translateX(-300px);
+	opacity:1;}
+.box3:hover .imgtu{
+	transform: scale(.5);
+	position:absolute;
+	left:-140px; top:0;
+	}
+.box4,.box5,.box6{
+	margin-top:30px;
+	width:280px;
+	height:280px;
+	position:relative;}
+.box4:hover .imgtu{
+	transform:translateX(-300px);
+	opacity:0;}
+.box4 .imgtu{
+	background:url(images/1.jpg);
+	}
+.box5 .imgtu{
+	background:url(images/5.jpg);
+	position:relative;
+	transition:2s;
+	transform-origin:left center;}
+.box5 .zhe{
+	position:absolute;
+	left:0; top:0;}
+.box5:hover .imgtu{
+	transform: rotateY(180deg);
+	}
+.box6 .imgtu{
+	background:url(images/3.jpg);
+	transform-origin:50px 50px;}
+.box6 .zhe{
+	position:absolute;
+	left:0; top:0;}
+.box6:hover .imgtu{
+	transform: rotateZ(120deg);
+	}
+.box6 span{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	background:#333;
+	position:absolute;
+	left:45px;
+	top:45px;
+	z-index:10;
+	border-radius:50%;}
+
+
+</style>
+</head>
+
+<body>	
+	<div class="gWidth box">
+        <div class="box1">
+            <div class="imgt"></div>	<!-- border-->
+            <div><img src="images/2.jpg" alt="" width="300"></div>
+            <div class="zhe">
+                <h3>HEADING HERE</h3>
+                <p>Description goes here</p>
+            </div>
+        </div>
+        <div class="box2">
+        	<div class="imgtu"></div>
+            <div class="zhe">
+            	<h3>HEADING HERE</h3>
+             	<p>Description goes here</p>
+            </div>
+        </div>
+        <div class="box3">
+        	<div class="imgtu"></div>
+            <div class="zhe">
+                <h3>HEADING HERE</h3>
+                <p>Description goes here</p>
+            </div> 
+        </div>
+        <div class="box4">
+        	<div class="imgtu"></div>
+            <div class="zhe">
+                <h3>HEADING HERE</h3>
+                <p>Description goes here</p>
+            </div> 
+        </div>
+        <div class="box5">
+        	<div class="imgtu"></div>
+            <div class="zhe">
+                <h3>HEADING HERE</h3>
+                <p>Description goes here</p>
+            </div> 
+        </div>
+        <div class="box6">
+        	<div class="imgtu"></div>
+            <div class="zhe">
+                <h3>HEADING HERE</h3>
+                <p>Description goes here</p>
+            </div>
+            <span></span> 
+        </div>
+        
+        
+</body>
+</html>

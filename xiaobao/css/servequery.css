@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	padding-bottom:124px;}
+.content h4{
+	font-size:28px;
+	color:#D53F19;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:20px;}
+header{
+	border-bottom:none !important;}
+.content .tishi{
+	font-size:14px;
+	color:#656565;
+	width:494px;
+	margin:0 auto;
+	margin-top:15px;}
+.content .tishi span{
+	display:inline-block;
+	width:424px;
+	vertical-align:top;}
+.content .me{
+	margin-top:34px;}
+.content .me a{
+	display:block;
+	width:294px;
+	height:55px;
+	text-align:center;
+	line-height:55px;
+	background:#D53F19;
+	font-size:18px;
+	color:#fff;
+	margin:0 auto;}

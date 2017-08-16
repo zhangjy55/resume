@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<!-- 头部 -->
+		<link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/slideshow.css">
+	<!-- 中部 -->
+  		<link href="css/public.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/iview.js"></script>
+		<script type="text/javascript" src="js/jquery.plugins-min.js"></script>
+		<script type="text/javascript" src="js/scripts-bottom-min.js"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="stylesheet" href="css/jquery.zySlide.css">
+        <style type="text/css">
+        body{
+			perspective: 3800px;	
+			
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+		}
+		#row .img{
+			width: 200px;
+			height: 197px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		#row .imgW img{
+			max-width:100%;
+			min-height: 100%;
+		}
+		#row .imgH img{
+			min-width:100%;
+			max-height: 100%;
+		}
+		#row{
+			position: relative;
+			width: 200px;
+			height: 197px;
+			float: left;
+			margin: 20px 104px;
+			box-sizing: border-box;
+		}
+		#row .tex{
+			position: absolute;
+			top: 0;left: 0;
+			width:100%;
+			height: 50%;
+			padding-top:25%;
+			border-radius: 50%;
+			opacity: 0;
+			padding-bottom:25%;
+			text-align: center;
+			background: rgba(0,0,0,0.5);
+		}
+		
+		#row .border{
+			position: absolute;
+			top: 0;left: 0;
+			width: 180px;
+			height: 177px;
+			border-style: solid;
+			border-color:  #1AD280 #1AD280 #ECAB18 #ECAB18;
+			border-width: 10px;
+			border-radius:50%;
+		}
+		#row .tex h5,#row .tex h6{
+			color: #fff;
+			font-size: 18px;
+			height: 36px;
+			line-height: 36px;
+		}
+		#row .tex h6{
+			width: 180px;
+			margin: 0 auto;
+			border-bottom: 1px solid #fff;
+		}
+		#row .tex span{
+			display: block;
+			color: #fff;
+			font-size:30px;
+			height: 200px;
+			line-height: 100px;
+		}
+		.posirel{
+			position: relative;
+		}
+		.poineven{
+			pointer-events: none;
+		}
+		#row .scale_52{
+			transform:scale(.3) rotateZ(0deg);
+			opacity: 0;
+			transition:transform .5s .2s,opacity .5s;
+		}
+		#row:hover .scale_52{
+			transition:opacity .5s .1s,transform.5s .2s;
+			transform: scale(1) rotateZ(-1080deg);
+			opacity: 1;
+		}
+		#row:hover .scale52{
+			transform:scale(.3) rotateZ(-1080deg);
+			opacity: 0;
+		}
+		#row .z1{
+			z-index: 1;
+		}
+		#row .z3{
+			z-index: 3;
+		}
+		#row .trion500{
+			transition: 500ms;
+		}
+		#row .fff5{
+			border-color: rgba(255,255,255,0.5);
+		}
+</style>
+    <!-- 底部 -->
+    </head>
+    <body class="clearfix">
+    <!-- 头部 -->
+	    <header class="w100p">
+           
+
+            <div class="header4 gWidth">
+                
+                  <div class="header3 clearfix">
+                    <ul class="">
+                        <li><a href="login.html">登陆</a></li>
+                        <li><a href="register.html">注册</a></li>
+                    </ul>
+                 </div> 
+                <div class="header2 gWidth clearfix">
+                <div class="logo fl">
+                    <a href="index.html"><img src="images/logo.png" height="120" width="120" alt="实力学生"></a>
+                </div>
+                <div class="nav">
+                    <ul class="clearfix">
+                        <li class="animated rubberBand"><a href="index.html">首页</a></li>
+                        <li class="animated rubberBand"><a href="project.html">项目展示</a></li>
+                        <li class="animated rubberBand"><a href="notes.html">笔记分享</a></li>
+                        <li class="animated rubberBand"><a href="students.html">学生与企业</a></li>
+                    </ul>
+                </div>
+
+                
+            </div>   
+
+            </div>
+        </header>
+    <!-- 内容 -->
+ <div class="header">
+  	<div id="onebyone_slider">
+    <div class="oneByOne_item">
+		<span class="ob1_title">项目名称</span>
+		<span class="ob1_description">发布人：陈不靠谱</span>
+		<span class="ob1_button"><a href="http://www.lanrentuku.com/" target="_blank" class="default_button">查看详情</a></span>
+		<img src="images/header/2.png" class="ob1_img_device1" alt="项目名称" />
+	</div>
+    <div class="oneByOne_item">
+		<span class="ob1_title">项目名称</span>
+		<span class="ob1_description">发布人：陈不靠谱</span>
+		<span class="ob1_button"><a href="http://#" target="_blank" class="default_button">查看详情</a></span>
+		<img src="images/header/2.png" class="ob1_img_device1" alt="项目名称" />
+	</div>
+	<div class="oneByOne_item">
+		<span class="ob1_title">项目名称</span>
+		<span class="ob1_description">发布人：陈不靠谱</span>
+		<span class="ob1_button"><a href="#" target="_blank" class="default_button">查看详情</a></span>
+		<img src="images/header/2.png" class="ob1_img_device1" alt="项目名称" />
+	</div>
+	<div class="oneByOne_item">
+		<span class="ob1_title">项目名称</span>
+		<span class="ob1_description">发布人：陈不靠谱</span>
+		<span class="ob1_button"><a href="#" target="_blank" class="default_button">查看详情</a></span>
+		<img src="images/header/2.png" class="ob1_img_device1" alt="项目名称" />
+	</div>
+    </div>
+ 	</div>
+ 	<div class="content w100p">
+ 		<div class="gWidth">
+ 		<div id="row" class="visibility">
+			<div class="img imgH trion500 z1 posirel scale52">
+				<img src="images/fb.jpg" alt="" style="margin-left: -50px; margin-top: -3px;">
+			</div>
+			<div class="tex trion500 z3 poineven scale_52">
+				<span>发布项目</span>
+			</div>
+			<div class="border trion500 fff5 z1 posirel scale52">
+			</div>
+		</div>
+		<div id="row" class="visibility">
+			<div class="img imgH trion500 z1 posirel scale52">
+				<img src="images/xs.jpg" alt="" style="margin-left: -50px; margin-top: -3px;">
+			</div>
+			<div class="tex trion500 z3 poineven scale_52">
+				<span>寻找学生</span>
+			</div>
+			<div class="border trion500 fff5 z1 posirel scale52">
+			</div>
+		</div>
+		<div id="row" class="visibility">
+			<div class="img imgH trion500 z1 posirel scale52">
+				<img src="images/xm.jpg" alt="" style="margin-left: -135px; margin-top: -3px;">
+			</div>
+			<div class="tex trion500 z3 poineven scale_52">
+				<span>寻找企业</span>
+			</div>
+			<div class="border trion500 fff5 z1 posirel scale52">
+			</div>
+		</div>
+ 			<p class="content1 gWidth"> 优秀项目展示</p>
+ 		</div>
+ 		<div class="gWidth clearfix">
+ 			<ul class="clearfix">
+ 				<li>
+ 					<img src="images/friend.png" alt="">
+ 					<div  class="text">
+ 						<a href=""><p> 发布人：陈不靠谱 </p></a>
+	 					<a href=""><p> 项目名称：陈不靠谱 </p></a>
+	 					<a href=""><p> 发布时间：陈不靠谱 </p></a>
+ 					</div>
+ 				</li>
+ 				<li>
+ 					<img src="images/fwcz.png" alt="">
+ 					<div  class="text">
+ 						<a href=""><p> 发布人：陈不靠谱 </p></a>
+	 					<a href=""><p> 项目名称：陈不靠谱 </p></a>
+	 					<a href=""><p> 发布时间：陈不靠谱 </p></a>
+ 					</div>
+ 				</li>
+ 			</ul>
+ 			<ul class="clearfix">
+ 				<li>
+ 					<img src="images/phone.jpg" alt="">
+ 					<div  class="text">
+ 						<a href=""><p> 发布人：陈不靠谱 </p></a>
+	 					<a href=""><p> 项目名称：陈不靠谱 </p></a>
+	 					<a href=""><p> 发布时间：陈不靠谱 </p></a>
+ 					</div>
+ 				</li>
+ 			</ul>
+ 			<ul class="clearfix">
+ 				<li>
+ 					<img src="images/fwcz.png" alt="">
+ 					<div  class="text">
+ 						<a href=""><p> 发布人：陈不靠谱 </p></a>
+	 					<a href=""><p> 项目名称：陈不靠谱 </p></a>
+	 					<a href=""><p> 发布时间：陈不靠谱 </p></a>
+ 					</div>
+ 				</li>
+ 				<li>
+ 					<img src="images/shenghuo.png" alt="">
+ 					<div  class="text">
+ 						<a href=""><p> 发布人：陈不靠谱 </p></a>
+	 					<a href=""><p> 项目名称：陈不靠谱 </p></a>
+	 					<a href=""><p> 发布时间：陈不靠谱 </p></a>
+ 					</div>
+ 				</li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ 	
+
+ 	 <div class="footer">
+            <div class="footer1 gWidth">
+                <p><a href="#">关于我们</a><span>|</span><a href="#">友情链接</a><span>|</span><a href="#">服务条款</a><span>|</span><a href="#">隐私政策</a><span>|</span><a href="#">网站律师</a><span>|</span><a href="#">留言反馈</a><span>|</span><a href="#">使用帮助</a><span>|</span><a href="#">广告服务</a></p>
+                <p>尊重网上道德，遵守全国人大常委会关于维护互联网安全的决定及中华人民共和国其他各项有关法律法规</p>
+                <p>Copyright 2005-2019 echang.cn All rights reserved.美嘉工作室版权所有</p>
+                <p>经营许可证编号：京ICP证100287号 京ICP备：12002820号 BBS经营许可证：电信业务审批[2010]字第219号函</p>
+                <p>电话：（010）89987264 客服QQ：371326322点击这里给我发消息 京公网安备：110117000088</p>
+            </div>
+        </div>
+    </body>
+</html>

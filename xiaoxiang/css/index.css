@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+.project{
+	margin-top:26px;}
+.content h1{
+	font-size:34px;
+	text-transform:uppercase;
+	color:#333333;}
+.content .contTitle{
+	text-align:center;}
+.contTitle .color{
+	color:#FF8A00;
+	margin-right:20px;}
+.contTitle p{
+	width:640px;
+	text-align:center;
+	margin:0 auto;
+	font-size:12px;
+	color:#999999;
+	margin-top:8px;}
+.projectBottom{
+	margin-top:65px;}
+.projectBottom .kuai{
+	width:182px;
+	text-align:center;
+	text-transform:uppercase;
+	margin-right:92px;}
+.projectBottom .kuai:last-child{
+	margin-right:0;}
+.projectBottom .world1{
+	font-size:10px;
+	margin-top:12px;}
+.projectBottom .world1 a{
+	color:#999999;}
+.projectBottom .world2 a{
+	font-size:24px;
+	color:#333333;}
+.background{
+	width:100%;
+	margin-top:90px;
+	padding-top:65px;
+	background:#FAFAFC;
+	border-top:1px solid #F0F0F1;
+	padding-bottom:60px;}
+.case .caseBottom{
+	border:1px solid #EAEAEA;
+	height:302px;
+	width:100%;
+	margin-top:55px;}
+.caseBottom .caseLeft{
+	width:182px;
+	position:relative;
+	left:-1px; top:-1px;
+	font-size:16px;}
+.caseBottom .caseLeft li{
+	height:100px;
+	line-height:100px;
+	border-bottom:1px solid #EAEAEA;}
+.caseBottom .caseLeft li:last-child{
+	border-bottom:none;}
+.caseBottom .caseLeft img{
+	vertical-align:middle;}
+.caseBottom .caseLeft em{
+	vertical-align:middle;
+	line-height:100px;
+	display:inline-block;}
+.caseBottom .caseLeft span{
+	margin-left:12px;}
+.caseBottom .caseLeft a{
+	color:#333333;
+	margin-left:18px;}
+.caseBottom .caseLeft .img2{
+	display:none;}
+.caseBottom .caseLeft li:hover{
+	background:#2F8AE7;
+	border-color:#2F8AE7}
+.caseBottom .caseLeft li:hover .img1{
+	display:none;}
+.caseBottom .caseLeft li:hover .img2{
+	display:inline-block;}
+.caseBottom .caseLeft li:hover a{
+	color:#fff;}
+.caseBottom .caseRight{
+	width:822px;
+	border:1px solid #2F8AE7;
+	height:301px;
+	position:relative;
+	left:1px;}
+.caseBottom .rightLeft{
+	width:330px;
+	height:198px;
+	margin-left:30px;
+	margin-top:55px;
+	background:url(../images/casetu1.png) right center no-repeat;}
+.caseBottom .rightLeft h2{
+	color:#333333;
+	font-size:16px;}
+.caseBottom .rightLeft ul{
+	line-height:36px;
+	margin-top:20px;
+	font-size:14px;}
+.caseBottom .rightLeft a{
+	color:#656565;}
+.caseBottom .imgshu img{
+	margin:43px 0 0 35px;}
+.caseBottom .rightRight{
+	width:389px;
+	height:279px;
+	margin-top:10px;
+	background:#fff;}
+.caseBottom .xtu{
+	position:relative;}
+.caseBottom .xtu:nth-child(odd){
+	margin-right:6px;}
+.caseBottom .xtu:nth-child(1),.caseBottom .xtu:nth-child(2){
+	margin-bottom:8px;}
+.caseBottom .xtu a{
+	width:54px;
+	height:18px;
+	display:inline-block;
+	position:absolute;
+	bottom:33px;
+	right:0;} 
+.news{
+	margin-top:55px;}
+.newsBottom{
+	width:100%;
+	margin-top:26px;
+	position:relative;}
+.newsBottom .newTop{
+	height:215px;
+	border-bottom:1px solid #BFBFBF;}
+.newsBottom .newBottom{
+	height:215px;
+	border-top:1px solid #000000;
+	}
+.newsBottom .newBottom .newLeft,.newsBottom .newBottom .newRight{
+	padding-top:35px;
+	box-sizing:border-box;}
+.newsBottom .newLeft{
+	width:502px;
+	border-right:1px solid #BFBFBF;
+	height:215px;
+	box-sizing:border-box;}
+.newsBottom .newRight{
+	width:502px;
+	border-left:1px solid #000000;
+	height:215px;
+	padding-left:96px;
+	box-sizing:border-box;}
+.newsBottom h3{
+	font-size:14px;
+	margin-top:13px;
+	margin-left:14px;
+	background:url(../images/newsyuan.png) left center no-repeat;
+	padding-left:22px;}
+.newsBottom h3 a{
+	color:#333333;}
+.newsBottom .world{
+	margin-left:14px;
+	font-size:14px;
+	color:#656565;
+	margin-top:20px;
+	line-height:24px;
+	width:390px;}
+.newsBottom .more{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-104px;
+	margin-top:-104px;}
+.about{
+	margin-top:80px;}
+.aboutTop{
+	margin-top:45px;}
+.aboutBottom{
+	margin-top:26px;
+	border-bottom:1px solid #E5E5E5;}
+.aboutBottom span{
+	display:inline-block;
+	padding:0 53px;
+	line-height:30px;
+	border:1px solid #646464;
+	border-bottom:0;
+	background:#646464;
+	margin-right:7px;
+	color:#fff;
+	font-size:12px;}
+.aboutBottom .active{
+	border:1px solid #E5E5E5;
+	border-bottom:0;
+	background:#fff;
+	color:#333333;}
+.aboutBottom span:nth-child(1){
+	margin-left:187px;}
+.aboutBottom .neirong{
+	width:100%;
+	height:170px;
+	border:1px solid #E5E5E5;
+	margin-top:27px;
+	padding-top:14px;
+	padding-left:6px;
+	box-sizing:border-box;}
+.aboutBottom .duanluo{
+	display:none;
+	text-indent:2em;
+	font-size:14px;
+	color:#656565;
+	line-height:26px;}
+.aboutBottom .show{
+	display:block;}
+.footerbj{
+	margin-top:127px;}
+
+
+
+
+
+
+

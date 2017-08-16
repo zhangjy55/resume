@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content1 a{
+	color:#656565;
+	}
+.content1 h4{
+	font-size:14px;
+	margin-top:5px;
+	height:14px;}
+.content1 .time{
+	color:#999999;
+	font-size:12px;
+	margin:12px 0 5px 0;
+	height:12px;}
+.content1 .neirong{
+	font-size:12px;
+	line-height:20px;}
+.content1 .kuai{
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-left:120px;
+	margin-bottom:23px;
+	}
+.content1 .kuai:nth-child(1){
+	background-image:url(../images/newstu1.png);}
+.content1 .kuai:nth-child(2){
+	background-image:url(../images/newstu2.png);}	
+.content1 .kuai:nth-child(3){
+	background-image:url(../images/newstu3.png);}	
+.content1 .kuai:nth-child(4){
+	background-image:url(../images/newstu2.png);}	
+.content1 .kuai:nth-child(5){
+	background-image:url(../images/newstu3.png);}	
+.content1 .kuai:nth-child(6){
+	background-image:url(../images/newstu1.png);
+	margin-bottom:0px;}	
+.subnav{
+	margin-top:70px;
+	text-align:center;}
+.subnav a{
+	display:inline-block;
+	padding:0 9px 0 7px;
+	height:24px;
+	line-height:24px;
+	background-color:#CEEAE9;
+	margin-right:6px;
+	border:1px solid #DDDDDD;
+	color:#333333;
+	font-size:12px;}
+.subnav .active{
+	background:#0D9590;
+	color:#fff;}	
+.subnav a:nth-child(1),.subnav a:nth-child(4){
+	margin-right:10px;}
+.footer{
+	margin-top:56px;}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headerBa{
+	width:100%;
+	height:99px;
+	background:#0B8B8E;}
+.headerLeft{
+	padding-top:20px;}
+.headTop .text{
+	border:1px solid #AAAAAA;
+	width:158px;
+	height:30px;
+	background:#fff;
+	box-sizing:border-box;
+	padding-left:4px;
+	color:#A9A9A9;}
+.headTop{
+	margin-top:10px;}
+.headTop .submit{
+	width:33px;
+	height:30px;
+	background:#9E9E9E;
+	color:#fff;
+	margin-left:-5px;}
+.headBottom{
+	margin-top:19px;}
+.headBottom p{
+	font-size:14px;
+	text-align:right;}
+.headerRight{
+	width:790px;}
+
+.headerRight a{
+	margin-right:25px;
+	display:inline-block;
+	padding:0 15px;
+	height:40px;
+	color:#fff;
+	border-radius:5px 5px 0 0;
+	line-height:32px;}
+.headerRight a:last-child{
+	margin-right:0;
+	padding-right:0;}
+.headerRight a:hover,.headerRight .active{
+	background:#fff;
+	color:#0B8B8D;
+	text-align:center;}
+.banner img{
+	width:100%;}
+.conten1{
+	line-height:32px;
+	margin-top:18px;
+	border-bottom:1px solid #BBBBBB;}
+.conten1 h2{
+	font-size:14px;
+	color:#333333;}
+.conten1 p{
+	font-size:0;}
+.conten1 a{
+	font-size:12px;
+	color:#656565;
+	margin-right:20px;}
+.footer{
+	height:96px;
+	width:100%;
+	background:#353535;
+	}
+.footer{
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
+	color:#999999;
+	font-size:0;}
+.footer .world1,.footer .world2{
+	font-size:12px;}
+.footer .world1 a{
+	color:#999999;}
+.footer .world1 span{
+	margin:0 9px;}
+.footer .world2{
+	margin-top:18px;
+	}
+.footer .world2 span:nth-child(2){
+	margin:0 27px;}
+
+
+
+
+
+
+
+
+
+

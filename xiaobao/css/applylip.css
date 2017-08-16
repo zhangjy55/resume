@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.background{
+	height:1410px !important;}
+.contRight .lipei{
+	font-size:14px;
+	color:#656565;
+	padding-left:22px;
+	line-height:50px;
+	border-bottom:1px solid #DDDEE0;}
+.contRight .lipei span{
+	margin:0 7px;}
+.contRight .lipei a{
+	color:#656565;}
+.contRight{
+	background:#fff;
+	margin-top:19px;
+	height:1342px !important;}
+.contRight .cont1{}
+.contRight .blue{
+	height:32px;
+	background:#F1F7FF;
+	padding-left:24px;
+	font-size:14px;
+	color:#656565;
+	line-height:32px;}
+.contRight p{
+	width:360px;
+	text-align:right;
+	margin-left:50px;
+	margin-top:20px;}
+.contRight p input{
+	width:270px;
+	height:36px;
+	border:1px solid #C5C5C5;
+	box-sizing:border-box;
+	padding:0 10px;
+	color:#999999;
+	font-size:14px;}
+.contRight p .ju{
+	margin-left:2em;
+	}
+.cont2{
+	margin-top:20px;}
+
+.cont2 .tupian{
+	margin-left:135px;
+	margin-top:20px;}
+.cont3{
+	margin-top:20px;}
+

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main .left .leftTop{
+	border-bottom:1px solid #2B5B99;
+	}
+.main .left .leftTop p{
+	border-bottom:1px solid #CAD6E5;}
+.main .left .leftCenter .kuai{
+	width:100%;
+	margin-top:36px;
+	border-bottom:1px solid #2B5B99;
+	}
+.main .left .leftCenter .subkuai{
+	width:708px;
+	background:url(../images/successtu1.png) left center no-repeat;
+	padding-left:122px;
+	border-bottom:1px solid #CAD6E5;
+	padding-bottom:25px;
+	}	
+.main .left .leftCenter	h3{
+	text-align:center;
+	font-size:16px;}
+.main .left .leftCenter	h3 a{
+	color:#656565;}
+.main .left .leftCenter p{
+	font-size:14px;
+	line-height:26px;
+	margin-top:20px;
+	}	
+.main .left .leftCenter a{
+	color:#656565;}	
+
+.main .left .leftBottom{
+	margin-top:73px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
